@@ -1,0 +1,29 @@
+//Default Layout (Content-Sidebar)
+.content-sidebar-wrap {
+    @include outer-container;
+}
+.content{
+    @include span-columns(9);
+}
+.sidebar-primary {
+    @include span-columns(3);
+}
+
+
+//Sidebar-Content Layout
+.sidebar-content{
+    .sidebar-primary {
+        float: left;
+    }
+    .content {
+        float: right;
+        margin-right: rem(10px);
+    }
+}
+
+//Full Width Content Layout
+.full-width-content{
+    .content {
+        @include span-columns(12);
+    }
+}

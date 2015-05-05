@@ -1,0 +1,33 @@
+/*!
+Theme Name: WP Temple Sandbox
+Theme URI: https://www.wptemple.com
+Description: Genesis Child theme.
+Author: Zach Russell
+Author URI: http://protechig.com
+Template: genesis
+Template Version: 2.1.2
+License: GPL V2+
+*/
+
+
+/* Import Web Fonts */
+
+/* Import Bourbon and Neat */
+@import "normalize";
+@import "bourbon/bourbon";
+@import "base/base";
+@import "neat/neat";
+
+
+/* Import Partials */
+@import "partials/layout";
+@import "partials/header";
+@import "partials/navigation";
+@import "partials/meta-comments";
+@import "partials/entrycontent";
+@import "partials/sidebar";
+@import "partials/sidebaralt";
+@import "partials/forms";
+@import "partials/footer";
+@import "partials/column-classes";
+@import "partials/responsive";

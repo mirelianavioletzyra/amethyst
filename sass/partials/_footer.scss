@@ -1,0 +1,22 @@
+.footer-widgets {
+    color: shade($light-gray, 30%);
+    background: $dark-gray;
+    .wrap{
+        @include outer-container;
+    }
+    .footer-widgets-1,
+    .footer-widgets-2,
+    .footer-widgets-3 {
+        @include span-columns(4);
+    }
+    .widgettitle {
+        color: $light-gray;
+    }
+    a {
+        &:hover {
+        }
+    }
+}
+.site-footer {
+    @include outer-container;
+}

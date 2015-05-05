@@ -1,0 +1,36 @@
+.genesis-nav-menu {
+    @include outer-container;
+    padding-left: 0;
+
+    a {
+        display: block;
+        padding: rem(15px) rem(30px);
+        position: relative;
+    }
+    .menu-item {
+        list-style: none;
+        float: left;
+
+        &.current-menu-item a {
+            color: $base-accent-color;
+        }
+    
+        &:first-child a {
+            padding-left: 0;
+        }
+    }
+}
+
+//* Primary Navigation
+.nav-primary {
+    background-color: $dark-gray;
+
+    .menu-item a {
+        color: $light-gray;
+
+        &:hover {
+            color: $base-accent-color;
+        }
+    }
+
+}
