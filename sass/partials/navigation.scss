@@ -1,6 +1,7 @@
 .genesis-nav-menu {
     @include outer-container;
     padding-left: 0;
+    width: 70em;
 
     a {
         display: block;
@@ -14,7 +15,7 @@
         &.current-menu-item a {
             color: $base-accent-color;
         }
-    
+
         &:first-child a {
             padding-left: 0;
         }
