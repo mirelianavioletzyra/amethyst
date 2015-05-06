@@ -1,5 +1,6 @@
 .site-header {
     @include outer-container;
+    width: 65em;
 
     .title-area {
         @include span-columns(6);
