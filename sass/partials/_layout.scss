@@ -1,6 +1,7 @@
 //Default Layout (Content-Sidebar)
 .content-sidebar-wrap {
     @include outer-container;
+    width: 65em;
 }
 .content{
     @include span-columns(9);
@@ -17,7 +18,7 @@
     }
     .content {
         float: right;
-        margin-right: rem(10px); 
+        margin-right: rem(10px);
     }
 }
 
