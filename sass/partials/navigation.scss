@@ -3,6 +3,12 @@
     padding-left: 0;
     width: 65em;
 
+    .nav-search {
+        height: 64px;
+        width: 25%;
+        float: right;
+    }
+
     a {
         display: block;
         padding: rem(20px) rem(30px);
