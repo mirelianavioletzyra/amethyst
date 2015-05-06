@@ -27,9 +27,11 @@
         font-family: $nav-font;
         font-weight: 500;
         font-size: 1.2em;
+        transition: .3s;
 
         &:hover {
             color: white;
+            background: $medium-purple;
         }
     }
 
