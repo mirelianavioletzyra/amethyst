@@ -47,7 +47,7 @@ p {
   margin: 0 0 ($base-spacing / 2);
 }
 
-a , li a:link{
+a {
   @include transition(color 0.3s linear);
   color: $base-link-color;
   text-decoration: none;
