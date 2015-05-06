@@ -2,10 +2,10 @@
     @include outer-container;
 
     .title-area {
-        @include span-columns(3);
+        @include span-columns(6);
     }
     .header-widget-area {
-        @include span-columns(9);
+        @include span-columns(6);
     }
 }
 
@@ -15,8 +15,9 @@
 .header-image {
     .site-title > a {
         float: left;
-        min-height: 60px;
+        min-height: 80px;
         width: 100%;
+        background: url('images/logo.png') no-repeat;
     }
 
     .site-description,
