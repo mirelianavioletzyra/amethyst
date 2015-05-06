@@ -41,3 +41,7 @@ add_theme_support( 'custom-header', array(
     'header-selector'   => '.site-title a',
     'header-text'       => FALSE,
 ) );
+
+//* Reposition the primary navigation menu
+remove_action( 'genesis_before_header', 'genesis_do_nav' );
+add_action( 'genesis_after_header', 'genesis_do_nav' );
