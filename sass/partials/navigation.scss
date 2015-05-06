@@ -22,18 +22,24 @@
 .nav-primary {
     background-color: $purple;
 
-    .menu-item a {
-        color: $light-purple-4;
-        font-family: $nav-font;
-        font-weight: 500;
-        font-size: 1em;
-        transition: .3s;
-        text-transform: uppercase;
+    .wrap {
+        width: 65em;
+        margin-left: auto;
+        margin-right: auto;
 
-        &:hover {
-            color: white;
-            background: $medium-purple;
+
+        .menu-item a {
+            color: $light-purple-4;
+            font-family: $nav-font;
+            font-weight: 500;
+            font-size: 1em;
+            transition: .3s;
+            text-transform: uppercase;
+
+            &:hover {
+                color: white;
+                background: $medium-purple;
+            }
         }
     }
-
 }
