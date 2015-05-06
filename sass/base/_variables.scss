@@ -1,8 +1,9 @@
 // Typography
 $sans-serif: $helvetica;
 $serif: $georgia;
-$base-font-family: $sans-serif;
+$base-font-family: Avenir Next;
 $header-font-family: $base-font-family;
+$nav-font: Avenir Next Condensed;
 
 // Font Sizes
 $base-font-size: 1em;
@@ -23,16 +24,26 @@ $base-spacing: $base-line-height * 1em;
 $base-z-index: 0;
 
 // Colors
-$blue: #477DCA;
-$dark-gray: #333;
-$medium-gray: #999;
-$light-gray: #DDD;
-$light-red: #FBE3E4;
+$blue: #4F53EB;
+$light-blue: #9395E8;
+$red: #E23B92;
+$light-red: #F98DC5;
+$cyan: #4FBFEB;
+$light-cyan: #ADDBED;
+$dark-gray: #616161;
+$medium-gray: #979797;
+$light-gray: #B8B8B8;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
+$light-purple: #FCF3FB;
+$light-purple-2: #E1BFFF;
+$light-purple-3: #E1BFFF;
+$medium-purple: #AC8CC9;
+$purple: #967AAE;
+
 // Background Color
-$base-background-color: white;
+$base-background-color: $light-purple;
 
 // Font Colors
 $base-font-color: $dark-gray;

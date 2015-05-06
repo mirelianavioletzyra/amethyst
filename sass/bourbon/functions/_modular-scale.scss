@@ -50,7 +50,7 @@ $double-octave:    4;
     @if $double-stranded {
       $v2: ($v2 / $ratio);
     }
-
+ 
     @for $i from $increment through -1 {
       @if $double-stranded and ($v1 / $ratio) < $v2 {
         $value: $v2;
