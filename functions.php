@@ -77,3 +77,15 @@ function theme_menu_extras( $menu, $args ) {
 	return $menu;
 
 }
+
+//* Customize search form input box text
+add_filter( 'genesis_search_text', 'sp_search_text' );
+function sp_search_text( $text ) {
+	return esc_attr( ' ' );
+}
+
+//* Customize search form input button text
+add_filter( 'genesis_search_button_text', 'sp_search_button_text' );
+function sp_search_button_text( $text ) {
+	return esc_attr( ' ' );
+}
