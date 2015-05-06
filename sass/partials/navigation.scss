@@ -13,11 +13,7 @@
         float: left;
 
         &.current-menu-item a {
-            color: $base-accent-color;
-        }
-
-        &:first-child a {
-            padding-left: 0;
+            background: $medium-purple;
         }
     }
 }
@@ -28,6 +24,9 @@
 
     .menu-item a {
         color: $light-purple-4;
+        font-family: $nav-font;
+        font-weight: 500;
+        font-size: 1.2em;
 
         &:hover {
             color: white;
