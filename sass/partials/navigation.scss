@@ -24,13 +24,13 @@
 
 //* Primary Navigation
 .nav-primary {
-    background-color: $dark-gray;
+    background-color: $purple;
 
     .menu-item a {
-        color: $light-gray;
+        color: $light-purple-4;
 
         &:hover {
-            color: $base-accent-color;
+            color: white;
         }
     }
 
