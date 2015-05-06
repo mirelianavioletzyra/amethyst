@@ -36,14 +36,8 @@ remove_action( 'genesis_after_header', 'genesis_do_nav' );
 add_action( 'genesis_before_header', 'genesis_do_nav' );
 
 add_theme_support( 'custom-header', array(
-    'width'             => 400,
+    'width'             => 700,
     'height'            => 100,
     'header-selector'   => '.site-title a',
     'header-text'       => FALSE,
-) );
-
-/** Add support for custom header */
-add_theme_support( 'genesis-custom-header', array(
-	'width' => 400,
-	'height' => 140
 ) );
