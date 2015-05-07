@@ -36,6 +36,14 @@
     height: 25em;
     background: $light-gray;
     color: white;
+
+    header {
+      padding: 1em 2em;
+    }
+
+    .entry-content {
+      padding: 1em 2em;
+    }
   }
 
   article.category-how-tos {
