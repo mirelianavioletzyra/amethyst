@@ -17,6 +17,9 @@ add_action( 'wp_enqueue_scripts', 'genesis_sandbox_enqueue_scripts' );
 //* Add HTML5 markup structure
 add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
 
+//* Add Home Image Size
+add_image_size( 'home', 300, 175, true );
+
 //* Add viewport meta tag for mobile browsers
 add_theme_support( 'genesis-responsive-viewport' );
 
@@ -94,7 +97,7 @@ function sp_search_button_text( $text ) {
 add_filter( 'genesis_post_meta', 'sp_post_meta_filter' );
 function sp_post_meta_filter($post_meta) {
 if ( !is_page() ) {
-	$post_meta = '[post_date]';
+	$post_meta = 'Published On: [post_date format="m/d/y"]';
 	return $post_meta;
 }}
 
@@ -103,4 +106,10 @@ add_filter( 'genesis_post_info', 'sp_post_info_filter' );
 function sp_post_info_filter($post_info) {
 	$post_info = '[post_categories before="" ]';
 	return $post_info;
+}
+
+//* Modify the Genesis content limit read more link
+add_filter( 'get_the_content_more_link', 'sp_read_more_link' );
+function sp_read_more_link() {
+	return ' . . . <a class="more-link" href="' . get_permalink() . '">read more</a>';
 }
