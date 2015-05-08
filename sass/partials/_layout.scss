@@ -30,23 +30,52 @@
 }
 
 .home {
-  article.post {
-    @include span-columns(4);
-    @include omega(3n);
-    height: 25em;
-    background: $light-gray;
-    color: white;
 
-    header {
-      padding: 1em 2em;
+  main.content {
+  padding-top: 3em;
+
+    article.post {
+      @include span-columns(4);
+      @include omega(3n);
+      color: white;
+
+      header {
+        padding: 1em 2em;
+        background: $light-gray;
+        width: 20em;
+
+        h1 a {
+          color: white;
+          font-family: $base-font-family;
+          font-weight: 500;
+          font-size: .8em;
+        }
+      }
+
+      .entry-content {
+        padding: 1em 2em;
+        background: $light-gray;
+        width: 20em;
+        height: 10em;
+
+        p {
+          font-size: 1em;
+          font-weight: 500;
+        }
+      }
+
+      .entry-footer {
+        width: 20em;
+
+        .entry-meta {
+          padding: 1em 2em;
+          background: $light-gray;
+        }
+      }
     }
 
-    .entry-content {
-      padding: 1em 2em;
+    article.category-how-tos {
+
     }
-  }
-
-  article.category-how-tos {
-
   }
 }

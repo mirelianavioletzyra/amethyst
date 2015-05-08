@@ -89,3 +89,18 @@ add_filter( 'genesis_search_button_text', 'sp_search_button_text' );
 function sp_search_button_text( $text ) {
 	return esc_attr( ' ' );
 }
+
+//* Customize the post meta function
+add_filter( 'genesis_post_meta', 'sp_post_meta_filter' );
+function sp_post_meta_filter($post_meta) {
+if ( !is_page() ) {
+	$post_meta = '[post_date]';
+	return $post_meta;
+}}
+
+//* Customize the entry meta in the entry header (requires HTML5 theme support)
+add_filter( 'genesis_post_info', 'sp_post_info_filter' );
+function sp_post_info_filter($post_info) {
+	$post_info = '[post_categories before="" ]';
+	return $post_info;
+}
