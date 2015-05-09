@@ -1,6 +1,8 @@
 .footer-widgets {
     color: $light-purple-3;
     background: $purple;
+    padding-top: 3em;
+
     .wrap{
         @include outer-container;
     }
