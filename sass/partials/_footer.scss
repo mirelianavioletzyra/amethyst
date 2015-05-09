@@ -20,6 +20,22 @@
 
 .site-footer {
     @include outer-container;
-    width: 65em;
+    width: 100%;
+    max-width: none;
     text-align: center;
+    background: $purple;
+    color: $light-purple-3;
+
+    .wrap {
+      width: 65em;
+      margin: auto;
+
+      a {
+        color: white;
+
+        &:hover {
+          color: darken($purple, 20);
+        }
+      }
+    }
 }
