@@ -1,6 +1,6 @@
 .footer-widgets {
-    color: shade($light-gray, 30%);
-    background: $dark-gray;
+    color: $light-purple-3;
+    background: $purple;
     .wrap{
         @include outer-container;
     }
@@ -17,7 +17,9 @@
         }
     }
 }
+
 .site-footer {
     @include outer-container;
     width: 65em;
+    text-align: center;
 }
