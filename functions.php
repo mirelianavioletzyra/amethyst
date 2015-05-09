@@ -113,3 +113,6 @@ add_filter( 'get_the_content_more_link', 'sp_read_more_link' );
 function sp_read_more_link() {
 	return ' . . . <a class="more-link" href="' . get_permalink() . '">read more</a>';
 }
+
+//Adds visibility settings for labels to gravity forms
+add_filter( 'gform_enable_field_label_visibility_settings', '__return_true' );

@@ -1,3 +1,5 @@
+
+// Nav Search Bar Styles
 .nav-search {
 
     form.search-form {
@@ -27,4 +29,15 @@
             left: -2px;
         }
     }
+}
+
+//Footer Newsletter Form
+.footer-widgets {
+
+  .gform_wraper {
+
+    label.gfield_label {
+      display: none !important;
+    }
+  }
 }
