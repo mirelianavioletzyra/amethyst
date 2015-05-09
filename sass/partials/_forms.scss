@@ -44,6 +44,15 @@
       background: $light-purple-3;
       border: none;
       color: $purple;
+      border-radius: 8px;
+      padding-top: 12px;
+    }
+
+    input::-webkit-input-placeholder {
+      color: $purple;
+      font-family: $base-font-family;
+      font-size: .9em;
+      font-weight: 600;
     }
 
     input[type=submit] {
