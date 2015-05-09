@@ -5,6 +5,7 @@
 
     .wrap{
         @include outer-container;
+        width: 65em;
     }
     .footer-widgets-1,
     .footer-widgets-2,
@@ -17,11 +18,24 @@
         }
     }
     .widgettitle {
-        color: $light-gray;
+        color: $light-purple-3;
+        font-family: $base-font-family;
+        font-size: 2.5em;
+        font-weight: 400;
     }
+
     a {
         &:hover {
         }
+    }
+
+    .textwidget {
+      p {
+        .about-us-excerpt {
+          line-height: 16px;
+          color: $light-purple-3;
+        }
+      }
     }
 }
 
