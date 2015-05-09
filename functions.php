@@ -116,3 +116,15 @@ function sp_read_more_link() {
 
 //Adds visibility settings for labels to gravity forms
 add_filter( 'gform_enable_field_label_visibility_settings', '__return_true' );
+
+//* Customize the credits
+add_filter( 'genesis_footer_creds_text', 'sp_footer_creds_text' );
+function sp_footer_creds_text() {
+	echo '<div class="creds"><p>';
+	echo 'Copyright &copy; ';
+	echo date('Y');
+	echo ' &middot; Designed and Developed by <a href="http://mydomain.com">Amethyst Design</a> &middot; Built on the <a href="http://www.studiopress.com/themes/genesis" title="Genesis Framework">Genesis Framework</a>';
+  echo '<br>';
+  echo 'Want us to build your website? <a href="#">Click Here</a> to find out more.';
+	echo '</p></div>';
+}
