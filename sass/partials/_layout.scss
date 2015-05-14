@@ -10,7 +10,6 @@
     @include span-columns(3);
 }
 
-
 //Sidebar-Content Layout
 .sidebar-content{
     .sidebar-primary {
@@ -151,13 +150,10 @@
         }
       }
     }
-
-    article.category-how-tos {
-
-    }
   }
 }
 
+//Search results page styles
 .search-results, .search-no-results {
 
   .archive-description {
@@ -166,9 +162,29 @@
   }
 }
 
+// No results page style
 .no-search-results {
 
   .entry {
 
+  }
+}
+
+// Catagory page styles
+.category-news, .category-blog, .category-how-tos {
+
+  article {
+    margin-top: 3em;
+
+    .entry-header {
+      img {
+        float: left;
+        margin-right: 1em;
+      }
+    }
+  }
+
+  article:last-child {
+    margin-bottom: 3em;
   }
 }

@@ -19,6 +19,7 @@ add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list'
 
 //* Add Home Image Size
 add_image_size( 'home', 300, 175, true );
+add_image_size( 'category', 680, 400, true);
 
 //* Add viewport meta tag for mobile browsers
 add_theme_support( 'genesis-responsive-viewport' );
@@ -128,3 +129,36 @@ function sp_footer_creds_text() {
   echo 'Want us to build your website? <a href="#">Click Here</a> to find out more.';
 	echo '</p></div>';
 }
+/**
+ * Add a CSS ID to main element
+ **/
+add_filter( 'genesis_attr_content', 'lc_custom_attributes_content' );
+function lc_custom_attributes_content( $attributes ) {
+  $attributes['id'] = 'main-content';
+  return $attributes;
+
+}
+
+/**
+ * Add support for JetPack infinite scroll
+ **/
+function lc_infinite_scroll_init() {
+ add_theme_support( 'infinite-scroll', array(
+ 'footer_widgets' => true,
+ 'container' => 'main-content',
+ 'footer' => false,
+ 'render' => 'genesis_loop',
+ ) );
+}
+add_action( 'after_setup_theme', 'lc_infinite_scroll_init' );
+
+/*
+ * Change the posts_per_page Infinite Scroll setting from 10 to 20
+ */
+function my_theme_infinite_scroll_settings( $args ) {
+    if ( is_array( $args ) )
+        $args['posts_per_page'] = 6;
+    return $args;
+}
+add_filter( 'infinite_scroll_settings', 'my_theme_infinite_scroll_settings' );
+
