@@ -5,9 +5,15 @@
 }
 .content{
     @include span-columns(9);
+    position:relative;
 }
 .sidebar-primary {
     @include span-columns(3);
+}
+.pagination {
+  position:absolute;
+  bottom:10px;
+  right:0px;
 }
 
 

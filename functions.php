@@ -128,3 +128,10 @@ function sp_footer_creds_text() {
   echo 'Want us to build your website? <a href="#">Click Here</a> to find out more.';
 	echo '</p></div>';
 }
+
+//To add infinate schroll load more button
+add_filter( 'genesis_next_link_text', 'gt_review_next_link_text', 1);
+function gt_review_next_link_text() {
+        $nextlink = 'Load More Stories';
+        return $nextlink;
+}
