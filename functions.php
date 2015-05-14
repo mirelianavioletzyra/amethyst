@@ -128,10 +128,43 @@ function sp_footer_creds_text() {
   echo 'Want us to build your website? <a href="#">Click Here</a> to find out more.';
 	echo '</p></div>';
 }
+/**
+ * Add a CSS ID to main element
+ **/
+add_filter( 'genesis_attr_content', 'lc_custom_attributes_content' );
+function lc_custom_attributes_content( $attributes ) {
+  $attributes['id'] = 'main-content';
+  return $attributes;
 
-//To add infinate schroll load more button
-add_filter( 'genesis_next_link_text', 'gt_review_next_link_text', 1);
-function gt_review_next_link_text() {
-        $nextlink = 'Load More Stories';
-        return $nextlink;
 }
+
+/**
+ * Add support for JetPack infinite scroll
+ **/
+function lc_infinite_scroll_init() {
+ add_theme_support( 'infinite-scroll', array(
+ 'footer_widgets' => true,
+ 'container' => 'main-content',
+ 'footer' => false,
+ 'render' => 'genesis_loop',
+ ) );
+}
+add_action( 'after_setup_theme', 'lc_infinite_scroll_init' );
+
+/*
+ * Change the posts_per_page Infinite Scroll setting from 10 to 20
+ */
+function my_theme_infinite_scroll_settings( $args ) {
+    if ( is_array( $args ) )
+        $args['posts_per_page'] = 6;
+    return $args;
+}
+add_filter( 'infinite_scroll_settings', 'my_theme_infinite_scroll_settings' );
+
+//* Add Featured Image In the Entry Header
+remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
+add_action( 'genesis_entry_header', 'genesis_do_post_image', 8 );
+
+//* Move Post Info above entry_title
+remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
+add_action('genesis_entry_header', 'genesis_post_info', 9 );
