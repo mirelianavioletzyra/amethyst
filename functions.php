@@ -19,6 +19,7 @@ add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list'
 
 //* Add Home Image Size
 add_image_size( 'home', 300, 175, true );
+add_image_size( 'category', 680, 400, true);
 
 //* Add viewport meta tag for mobile browsers
 add_theme_support( 'genesis-responsive-viewport' );
@@ -161,10 +162,3 @@ function my_theme_infinite_scroll_settings( $args ) {
 }
 add_filter( 'infinite_scroll_settings', 'my_theme_infinite_scroll_settings' );
 
-//* Add Featured Image In the Entry Header
-remove_action( 'genesis_entry_content', 'genesis_do_post_image', 8 );
-add_action( 'genesis_entry_header', 'genesis_do_post_image', 8 );
-
-//* Move Post Info above entry_title
-remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
-add_action('genesis_entry_header', 'genesis_post_info', 9 );
