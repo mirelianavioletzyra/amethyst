@@ -691,16 +691,16 @@ html {
           text-decoration: none; }
       .home main.content article.post header.entry-header a {
         display: block; }
-      .home main.content article.post header.entry-header h1, .home main.content article.post header.entry-header h2 {
+      .home main.content article.post header.entry-header h1.entry-title, .home main.content article.post header.entry-header h2.entry-title {
         padding: 0em .7em;
         font-size: 1.4em; }
-        .home main.content article.post header.entry-header h1 a, .home main.content article.post header.entry-header h2 a {
+        .home main.content article.post header.entry-header h1.entry-title a, .home main.content article.post header.entry-header h2.entry-title a {
           color: white;
           font-family: Avenir Next;
           font-weight: 500;
           text-transform: capitalize;
           text-decoration: none; }
-          .home main.content article.post header.entry-header h1 a:hover, .home main.content article.post header.entry-header h2 a:hover {
+          .home main.content article.post header.entry-header h1.entry-title a:hover, .home main.content article.post header.entry-header h2.entry-title a:hover {
             color: #967AAE; }
     .home main.content article.post .entry-content {
       padding: 1em;
