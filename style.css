@@ -760,16 +760,12 @@ html {
   float: left;
   min-height: 80px;
   width: 100%;
-  background-size: 10em !important;
-  background-position-y: .3em !important; }
+  background-size: 360px;
+  background-position-y: .3em; }
 .header-image .site-description,
 .header-image .site-title {
   display: block;
   text-indent: -9999px; }
-
-.single-post .title-area .site-title > a {
-  background-size: 22em !important;
-  background-position-y: .8em !important; }
 
 .genesis-nav-menu {
   max-width: 75em;

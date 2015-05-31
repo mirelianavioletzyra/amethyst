@@ -18,8 +18,8 @@
         float: left;
         min-height: 80px;
         width: 100%;
-        background-size: 10em !important;
-        background-position-y: .3em !important;
+        background-size: 360px;
+        background-position-y: .3em;
     }
 
     .site-description,
@@ -27,14 +27,4 @@
         display: block;
         text-indent: -9999px;
     }
-}
-
-//* Inner Page Header Image
-.single-post {
-  .title-area {
-    .site-title > a {
-      background-size: 22em !important;
-      background-position-y: .8em !important;
-    }
-  }
 }
