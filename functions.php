@@ -124,7 +124,7 @@ function sp_footer_creds_text() {
 	echo '<div class="creds"><p>';
 	echo 'Copyright &copy; ';
 	echo date('Y');
-	echo ' &middot; Designed and Developed by <a href="http://mydomain.com">Amethyst Design</a> &middot; Built on the <a href="http://www.studiopress.com/themes/genesis" title="Genesis Framework">Genesis Framework</a>';
+	echo ' &middot; Designed and Developed by <a href="http://amethyst.design">Amethyst Design</a> &middot; Built on the <a href="http://www.studiopress.com/themes/genesis" title="Genesis Framework">Genesis Framework</a>';
   echo '<br>';
   echo 'Want us to build your website? <a href="#">Click Here</a> to find out more.';
 	echo '</p></div>';
@@ -161,4 +161,3 @@ function my_theme_infinite_scroll_settings( $args ) {
     return $args;
 }
 add_filter( 'infinite_scroll_settings', 'my_theme_infinite_scroll_settings' );
-
