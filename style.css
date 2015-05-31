@@ -756,7 +756,7 @@ html {
     .site-header .header-widget-area:last-child {
       margin-right: 0; }
 
-.header-image .site-title > a {
+.header-image .site-title > a, .header-image p.site-title {
   float: left;
   min-height: 80px;
   width: 100%;
