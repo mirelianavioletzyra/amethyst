@@ -761,7 +761,7 @@ html {
   min-height: 80px;
   width: 100%;
   background-size: 360px !important;
-  background-position-y: .3em !important; }
+  background-position-y: 12px !important; }
 .header-image .site-description,
 .header-image .site-title {
   display: block;
