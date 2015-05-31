@@ -760,8 +760,8 @@ html {
   float: left;
   min-height: 80px;
   width: 100%;
-  background-size: 360px;
-  background-position-y: .3em; }
+  background-size: 360px !important;
+  background-position-y: .3em !important; }
 .header-image .site-description,
 .header-image .site-title {
   display: block;
