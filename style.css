@@ -767,7 +767,7 @@ html {
   display: block;
   text-indent: -9999px; }
 
-.single-post .site-title > a {
+.single-post .header-image .site-title > a {
   background-size: 22em !important;
   background-position-y: .8em !important; }
 

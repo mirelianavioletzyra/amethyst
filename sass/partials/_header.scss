@@ -31,8 +31,10 @@
 
 //* Inner Page Header Image
 .single-post {
-  .site-title > a {
-    background-size: 22em !important;
-    background-position-y: .8em !important;
+  .header-image {
+    .site-title > a {
+      background-size: 22em !important;
+      background-position-y: .8em !important;
+    }
   }
 }
