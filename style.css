@@ -435,9 +435,9 @@ p {
   margin: 0 0 0.75em; }
 
 a {
-  -webkit-transition: color 0.3s linear;
-  -moz-transition: color 0.3s linear;
-  transition: color 0.3s linear;
+  -webkit-transition: color 0.1s linear;
+  -moz-transition: color 0.1s linear;
+  transition: color 0.1s linear;
   color: #967AAE;
   text-decoration: none; }
   a:hover {
