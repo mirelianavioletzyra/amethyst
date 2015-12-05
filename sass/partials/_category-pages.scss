@@ -1,0 +1,19 @@
+// Catagory Pages
+
+.category-news, .category-blog, .category-how-tos {
+
+  article {
+    margin-top: 3em;
+
+    .entry-header {
+      img {
+        float: left;
+        margin-right: 1em;
+      }
+    }
+  }
+
+  article:last-child {
+    margin-bottom: 3em;
+  }
+}

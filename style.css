@@ -642,14 +642,6 @@ html {
   text-align: center;
   padding: 3em; }
 
-.category-news article, .category-blog article, .category-how-tos article {
-  margin-top: 3em; }
-  .category-news article .entry-header img, .category-blog article .entry-header img, .category-how-tos article .entry-header img {
-    float: left;
-    margin-right: 1em; }
-.category-news article:last-child, .category-blog article:last-child, .category-how-tos article:last-child {
-  margin-bottom: 3em; }
-
 .site-header {
   max-width: 75em;
   margin-left: auto;
@@ -1084,3 +1076,11 @@ html {
         font-family: Andale Mono;
         font-size: .9em;
         font-weight: 600; }
+
+.category-news article, .category-blog article, .category-how-tos article {
+  margin-top: 3em; }
+  .category-news article .entry-header img, .category-blog article .entry-header img, .category-how-tos article .entry-header img {
+    float: left;
+    margin-right: 1em; }
+.category-news article:last-child, .category-blog article:last-child, .category-how-tos article:last-child {
+  margin-bottom: 3em; }
