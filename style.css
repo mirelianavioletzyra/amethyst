@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /*!
-Theme Name: Amethyst Design 
+Theme Name: Amethyst Design
 Theme URI: https://www.wptemple.com
 Description: Genesis Child theme.
 Author: Zach Russell
@@ -638,88 +638,6 @@ html {
   .full-width-content .content:last-child {
     margin-right: 0; }
 
-.home main.content {
-  padding-top: 3em; }
-  .home main.content .category-how-tos .entry-meta {
-    background: #4F53EB; }
-    .home main.content .category-how-tos .entry-meta a {
-      color: #9395E8; }
-      .home main.content .category-how-tos .entry-meta a:hover {
-        color: white; }
-  .home main.content .category-news .entry-meta {
-    background: #E23B92; }
-    .home main.content .category-news .entry-meta a {
-      color: #F98DC5; }
-      .home main.content .category-news .entry-meta a:hover {
-        color: white; }
-  .home main.content .category-blog .entry-meta {
-    background: #4FBFEB; }
-    .home main.content .category-blog .entry-meta a {
-      color: #ADDBED; }
-      .home main.content .category-blog .entry-meta a:hover {
-        color: white; }
-  .home main.content article.post {
-    float: left;
-    display: block;
-    margin-right: 0.8403361345%;
-    width: 32.7731092437%;
-    color: white;
-    margin-bottom: 1em; }
-    .home main.content article.post:last-child {
-      margin-right: 0; }
-    .home main.content article.post:nth-child(3n) {
-      margin-right: 0; }
-    .home main.content article.post:nth-child(3n+1) {
-      clear: left; }
-    .home main.content article.post a {
-      color: white;
-      text-decoration: underline; }
-      .home main.content article.post a:hover {
-        color: #967AAE; }
-    .home main.content article.post header.entry-header {
-      background: #B8B8B8;
-      width: 300px;
-      height: 17em; }
-      .home main.content article.post header.entry-header .entry-meta {
-        text-align: center;
-        font-family: century gothic;
-        text-transform: uppercase;
-        position: relative;
-        top: -.4em;
-        font-weight: 600; }
-        .home main.content article.post header.entry-header .entry-meta a {
-          text-decoration: none; }
-      .home main.content article.post header.entry-header a {
-        display: block; }
-      .home main.content article.post header.entry-header h1.entry-title, .home main.content article.post header.entry-header h2.entry-title {
-        padding: 0em .7em;
-        font-size: 1.4em; }
-        .home main.content article.post header.entry-header h1.entry-title a, .home main.content article.post header.entry-header h2.entry-title a {
-          color: white;
-          font-family: Avenir Next;
-          font-weight: 500;
-          text-transform: capitalize;
-          text-decoration: none; }
-          .home main.content article.post header.entry-header h1.entry-title a:hover, .home main.content article.post header.entry-header h2.entry-title a:hover {
-            color: #967AAE; }
-    .home main.content article.post .entry-content {
-      padding: 1em;
-      background: #B8B8B8;
-      width: 300px;
-      height: 9em; }
-      .home main.content article.post .entry-content p {
-        font-size: 1em;
-        font-weight: 500;
-        line-height: 25px; }
-    .home main.content article.post .entry-footer {
-      width: 300px; }
-      .home main.content article.post .entry-footer .entry-meta {
-        padding: .1em 1em 1em;
-        background: #B8B8B8;
-        font-family: Andale Mono;
-        font-size: .9em;
-        font-weight: 600; }
-
 .search-results .archive-description, .search-no-results .archive-description {
   text-align: center;
   padding: 3em; }
@@ -1085,3 +1003,84 @@ html {
   .site-header .genesis-nav-menu.responsive-menu > li:hover > a,
   .site-header .genesis-nav-menu.responsive-menu a:hover {
     color: #fff; } }
+.home main.content {
+  padding-top: 3em; }
+  .home main.content .category-how-tos .entry-meta {
+    background: #4F53EB; }
+    .home main.content .category-how-tos .entry-meta a {
+      color: #9395E8; }
+      .home main.content .category-how-tos .entry-meta a:hover {
+        color: white; }
+  .home main.content .category-news .entry-meta {
+    background: #E23B92; }
+    .home main.content .category-news .entry-meta a {
+      color: #F98DC5; }
+      .home main.content .category-news .entry-meta a:hover {
+        color: white; }
+  .home main.content .category-blog .entry-meta {
+    background: #4FBFEB; }
+    .home main.content .category-blog .entry-meta a {
+      color: #ADDBED; }
+      .home main.content .category-blog .entry-meta a:hover {
+        color: white; }
+  .home main.content article.post {
+    float: left;
+    display: block;
+    margin-right: 0.8403361345%;
+    width: 32.7731092437%;
+    color: white;
+    margin-bottom: 1em; }
+    .home main.content article.post:last-child {
+      margin-right: 0; }
+    .home main.content article.post:nth-child(3n) {
+      margin-right: 0; }
+    .home main.content article.post:nth-child(3n+1) {
+      clear: left; }
+    .home main.content article.post a {
+      color: white;
+      text-decoration: underline; }
+      .home main.content article.post a:hover {
+        color: #967AAE; }
+    .home main.content article.post header.entry-header {
+      background: #B8B8B8;
+      width: 300px;
+      height: 17em; }
+      .home main.content article.post header.entry-header .entry-meta {
+        text-align: center;
+        font-family: century gothic;
+        text-transform: uppercase;
+        position: relative;
+        top: -.4em;
+        font-weight: 600; }
+        .home main.content article.post header.entry-header .entry-meta a {
+          text-decoration: none; }
+      .home main.content article.post header.entry-header a {
+        display: block; }
+      .home main.content article.post header.entry-header h1.entry-title, .home main.content article.post header.entry-header h2.entry-title {
+        padding: 0em .7em;
+        font-size: 1.4em; }
+        .home main.content article.post header.entry-header h1.entry-title a, .home main.content article.post header.entry-header h2.entry-title a {
+          color: white;
+          font-family: Avenir Next;
+          font-weight: 500;
+          text-transform: capitalize;
+          text-decoration: none; }
+          .home main.content article.post header.entry-header h1.entry-title a:hover, .home main.content article.post header.entry-header h2.entry-title a:hover {
+            color: #967AAE; }
+    .home main.content article.post .entry-content {
+      padding: 1em;
+      background: #B8B8B8;
+      width: 300px;
+      height: 9em; }
+      .home main.content article.post .entry-content p {
+        font-size: 1em;
+        font-weight: 500;
+        line-height: 25px; }
+    .home main.content article.post .entry-footer {
+      width: 300px; }
+      .home main.content article.post .entry-footer .entry-meta {
+        padding: .1em 1em 1em;
+        background: #B8B8B8;
+        font-family: Andale Mono;
+        font-size: .9em;
+        font-weight: 600; }
