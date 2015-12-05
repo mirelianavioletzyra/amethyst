@@ -1,6 +1,8 @@
 // Catagory Pages
 
 .category-news, .category-blog, .category-how-tos {
+  @include span-columns(12);
+  @include omega();
 
   article {
     margin-top: 3em;
