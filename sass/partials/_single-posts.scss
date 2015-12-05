@@ -1,0 +1,17 @@
+// Single Post Pages
+
+.site-inner {
+  .category-how-tos, .category-news, category-blog {
+    margin-top: 3em;
+
+    h1.entry-title {
+      text-align: center;
+    }
+
+    .entry-meta {
+      .entry-categories {
+        text-align: center;
+      }
+    }
+  }
+}

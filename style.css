@@ -494,9 +494,6 @@ label {
 textarea,
 input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="email"], input[type="month"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="time"], input[type="url"], input[type="week"], textarea,
 select[multiple=multiple] {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
   -webkit-transition: border-color;
   -moz-transition: border-color;
   transition: border-color;
@@ -723,10 +720,10 @@ html {
   margin-left: auto;
   padding: 12px 0 0; }
   .nav-search form.search-form input[type="search"] {
-    width: 12em;
+    width: 11em;
     display: inline;
     border-radius: 0;
-    height: 40px;
+    height: 24px;
     border: 0;
     background: #a989c7;
     color: #FCF3FB;
@@ -1092,3 +1089,10 @@ html {
       margin-right: 1em; }
   .category-news article:last-child, .category-blog article:last-child, .category-how-tos article:last-child {
     margin-bottom: 3em; }
+
+.site-inner .category-how-tos, .site-inner .category-news, .site-inner category-blog {
+  margin-top: 3em; }
+  .site-inner .category-how-tos h1.entry-title, .site-inner .category-news h1.entry-title, .site-inner category-blog h1.entry-title {
+    text-align: center; }
+  .site-inner .category-how-tos .entry-meta .entry-categories, .site-inner .category-news .entry-meta .entry-categories, .site-inner category-blog .entry-meta .entry-categories {
+    text-align: center; }
