@@ -998,9 +998,9 @@ html {
 .home main.content {
   padding-top: 3em; }
   .home main.content .category-how-tos .entry-meta {
-    background: #4F53EB; }
+    background: #4FBFEB; }
     .home main.content .category-how-tos .entry-meta a {
-      color: #9395E8; }
+      color: #ADDBED; }
       .home main.content .category-how-tos .entry-meta a:hover {
         color: white; }
   .home main.content .category-news .entry-meta {
@@ -1010,9 +1010,9 @@ html {
       .home main.content .category-news .entry-meta a:hover {
         color: white; }
   .home main.content .category-blog .entry-meta {
-    background: #4FBFEB; }
+    background: #4F53EB; }
     .home main.content .category-blog .entry-meta a {
-      color: #ADDBED; }
+      color: #9395E8; }
       .home main.content .category-blog .entry-meta a:hover {
         color: white; }
   .home main.content article.post {
