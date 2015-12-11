@@ -1,24 +1,28 @@
-// Catagory Pages
+// Category Pages
 
-.catagory {
+.category {
+  .site-inner {
+    .category-news, .category-blog, .category-how-tos {
 
-  .category-news, .category-blog, .category-how-tos {
-    @include span-columns(12);
-    @include omega();
+      article.post {
+        @include span-columns(12);
+        @include omega();
 
-    article {
-      margin-top: 3em;
+        margin-top: 3em;
 
-      .entry-header {
-        img {
-          float: left;
-          margin-right: 1em;
+        header.entry-header {
+          @include span-columns(8);
+        }
+
+        .entry-content {
+          @include span-columns(4);
+          @include omega();
         }
       }
-    }
 
-    article:last-child {
-      margin-bottom: 3em;
+      article:last-child {
+        margin-bottom: 3em;
+      }
     }
   }
 }

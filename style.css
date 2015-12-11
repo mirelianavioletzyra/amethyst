@@ -1033,7 +1033,7 @@ html {
     .home main.content article.post header.entry-header {
       background: #979797;
       width: 300px;
-      height: 17em; }
+      height: 18em; }
       .home main.content article.post header.entry-header .entry-meta {
         text-align: center;
         font-family: century gothic;
@@ -1074,21 +1074,32 @@ html {
         font-size: .9em;
         font-weight: 600; }
 
-.catagory .category-news, .catagory .category-blog, .catagory .category-how-tos {
+.category .site-inner .category-news article.post, .category .site-inner .category-blog article.post, .category .site-inner .category-how-tos article.post {
   float: left;
   display: block;
   margin-right: 0.8403361345%;
   width: 100%;
-  margin-right: 0; }
-  .catagory .category-news:last-child, .catagory .category-blog:last-child, .catagory .category-how-tos:last-child {
+  margin-right: 0;
+  margin-top: 3em; }
+  .category .site-inner .category-news article.post:last-child, .category .site-inner .category-blog article.post:last-child, .category .site-inner .category-how-tos article.post:last-child {
     margin-right: 0; }
-  .catagory .category-news article, .catagory .category-blog article, .catagory .category-how-tos article {
-    margin-top: 3em; }
-    .catagory .category-news article .entry-header img, .catagory .category-blog article .entry-header img, .catagory .category-how-tos article .entry-header img {
-      float: left;
-      margin-right: 1em; }
-  .catagory .category-news article:last-child, .catagory .category-blog article:last-child, .catagory .category-how-tos article:last-child {
-    margin-bottom: 3em; }
+  .category .site-inner .category-news article.post header.entry-header, .category .site-inner .category-blog article.post header.entry-header, .category .site-inner .category-how-tos article.post header.entry-header {
+    float: left;
+    display: block;
+    margin-right: 0.8403361345%;
+    width: 66.3865546218%; }
+    .category .site-inner .category-news article.post header.entry-header:last-child, .category .site-inner .category-blog article.post header.entry-header:last-child, .category .site-inner .category-how-tos article.post header.entry-header:last-child {
+      margin-right: 0; }
+  .category .site-inner .category-news article.post .entry-content, .category .site-inner .category-blog article.post .entry-content, .category .site-inner .category-how-tos article.post .entry-content {
+    float: left;
+    display: block;
+    margin-right: 0.8403361345%;
+    width: 32.7731092437%;
+    margin-right: 0; }
+    .category .site-inner .category-news article.post .entry-content:last-child, .category .site-inner .category-blog article.post .entry-content:last-child, .category .site-inner .category-how-tos article.post .entry-content:last-child {
+      margin-right: 0; }
+.category .site-inner .category-news article:last-child, .category .site-inner .category-blog article:last-child, .category .site-inner .category-how-tos article:last-child {
+  margin-bottom: 3em; }
 
 .single-post .site-inner {
   background: white; }
