@@ -1074,20 +1074,20 @@ html {
         font-size: .9em;
         font-weight: 600; }
 
-.single-post .category-news, .single-post .category-blog, .single-post .category-how-tos {
+.catagory .category-news, .catagory .category-blog, .catagory .category-how-tos {
   float: left;
   display: block;
   margin-right: 0.8403361345%;
   width: 100%;
   margin-right: 0; }
-  .single-post .category-news:last-child, .single-post .category-blog:last-child, .single-post .category-how-tos:last-child {
+  .catagory .category-news:last-child, .catagory .category-blog:last-child, .catagory .category-how-tos:last-child {
     margin-right: 0; }
-  .single-post .category-news article, .single-post .category-blog article, .single-post .category-how-tos article {
+  .catagory .category-news article, .catagory .category-blog article, .catagory .category-how-tos article {
     margin-top: 3em; }
-    .single-post .category-news article .entry-header img, .single-post .category-blog article .entry-header img, .single-post .category-how-tos article .entry-header img {
+    .catagory .category-news article .entry-header img, .catagory .category-blog article .entry-header img, .catagory .category-how-tos article .entry-header img {
       float: left;
       margin-right: 1em; }
-  .single-post .category-news article:last-child, .single-post .category-blog article:last-child, .single-post .category-how-tos article:last-child {
+  .catagory .category-news article:last-child, .catagory .category-blog article:last-child, .catagory .category-how-tos article:last-child {
     margin-bottom: 3em; }
 
 .single-post .site-inner {
