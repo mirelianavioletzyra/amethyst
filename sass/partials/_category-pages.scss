@@ -1,21 +1,24 @@
 // Catagory Pages
 
-.category-news, .category-blog, .category-how-tos {
-  @include span-columns(12);
-  @include omega();
+.single-post {
 
-  article {
-    margin-top: 3em;
+  .category-news, .category-blog, .category-how-tos {
+    @include span-columns(12);
+    @include omega();
 
-    .entry-header {
-      img {
-        float: left;
-        margin-right: 1em;
+    article {
+      margin-top: 3em;
+
+      .entry-header {
+        img {
+          float: left;
+          margin-right: 1em;
+        }
       }
     }
-  }
 
-  article:last-child {
-    margin-bottom: 3em;
+    article:last-child {
+      margin-bottom: 3em;
+    }
   }
 }

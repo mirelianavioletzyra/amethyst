@@ -1074,25 +1074,27 @@ html {
         font-size: .9em;
         font-weight: 600; }
 
-.category-news, .category-blog, .category-how-tos {
+.single-post .category-news, .single-post .category-blog, .single-post .category-how-tos {
   float: left;
   display: block;
   margin-right: 0.8403361345%;
   width: 100%;
   margin-right: 0; }
-  .category-news:last-child, .category-blog:last-child, .category-how-tos:last-child {
+  .single-post .category-news:last-child, .single-post .category-blog:last-child, .single-post .category-how-tos:last-child {
     margin-right: 0; }
-  .category-news article, .category-blog article, .category-how-tos article {
+  .single-post .category-news article, .single-post .category-blog article, .single-post .category-how-tos article {
     margin-top: 3em; }
-    .category-news article .entry-header img, .category-blog article .entry-header img, .category-how-tos article .entry-header img {
+    .single-post .category-news article .entry-header img, .single-post .category-blog article .entry-header img, .single-post .category-how-tos article .entry-header img {
       float: left;
       margin-right: 1em; }
-  .category-news article:last-child, .category-blog article:last-child, .category-how-tos article:last-child {
+  .single-post .category-news article:last-child, .single-post .category-blog article:last-child, .single-post .category-how-tos article:last-child {
     margin-bottom: 3em; }
 
-.site-inner .category-how-tos, .site-inner .category-news, .site-inner category-blog {
-  margin-top: 3em; }
-  .site-inner .category-how-tos h1.entry-title, .site-inner .category-news h1.entry-title, .site-inner category-blog h1.entry-title {
-    text-align: center; }
-  .site-inner .category-how-tos .entry-meta .entry-categories, .site-inner .category-news .entry-meta .entry-categories, .site-inner category-blog .entry-meta .entry-categories {
-    text-align: center; }
+.single-post .site-inner {
+  background: white; }
+  .single-post .site-inner .category-how-tos, .single-post .site-inner .category-news, .single-post .site-inner .category-blog {
+    margin-top: 3em; }
+    .single-post .site-inner .category-how-tos h1.entry-title, .single-post .site-inner .category-news h1.entry-title, .single-post .site-inner .category-blog h1.entry-title {
+      text-align: center; }
+    .single-post .site-inner .category-how-tos .entry-meta .entry-categories, .single-post .site-inner .category-news .entry-meta .entry-categories, .single-post .site-inner .category-blog .entry-meta .entry-categories {
+      text-align: center; }

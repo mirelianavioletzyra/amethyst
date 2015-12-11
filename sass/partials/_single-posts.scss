@@ -1,16 +1,20 @@
 // Single Post Pages
 
-.site-inner {
-  .category-how-tos, .category-news, category-blog {
-    margin-top: 3em;
+.single-post {
+  .site-inner {
+    background: white;
 
-    h1.entry-title {
-      text-align: center;
-    }
+    .category-how-tos, .category-news, .category-blog {
+      margin-top: 3em;
 
-    .entry-meta {
-      .entry-categories {
+      h1.entry-title {
         text-align: center;
+      }
+
+      .entry-meta {
+        .entry-categories {
+          text-align: center;
+        }
       }
     }
   }
