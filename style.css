@@ -470,6 +470,9 @@ cite {
   cite:before {
     content: "\2014 \00A0"; }
 
+.entry-title {
+  text-transform: capitalize; }
+
 fieldset {
   background: #d2d2d2;
   border: 1px solid #B8B8B8;
@@ -1029,7 +1032,7 @@ html {
       color: white;
       text-decoration: underline; }
       .home main.content article.post a:hover {
-        color: #967AAE; }
+        color: #E1BFFF; }
     .home main.content article.post header.entry-header {
       background: #979797;
       width: 300px;
@@ -1039,7 +1042,7 @@ html {
         font-family: century gothic;
         text-transform: uppercase;
         position: relative;
-        top: -.4em;
+        top: -7px;
         font-weight: 600; }
         .home main.content article.post header.entry-header .entry-meta a {
           text-decoration: none; }
@@ -1107,5 +1110,7 @@ html {
     margin-top: 3em; }
     .single-post .site-inner .category-how-tos h1.entry-title, .single-post .site-inner .category-news h1.entry-title, .single-post .site-inner .category-blog h1.entry-title {
       text-align: center; }
+    .single-post .site-inner .category-how-tos h2, .single-post .site-inner .category-news h2, .single-post .site-inner .category-blog h2 {
+      margin: 1em 0; }
     .single-post .site-inner .category-how-tos .entry-meta .entry-categories, .single-post .site-inner .category-news .entry-meta .entry-categories, .single-post .site-inner .category-blog .entry-meta .entry-categories {
       text-align: center; }
