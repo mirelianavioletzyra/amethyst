@@ -1,4 +1,8 @@
 .home-page {
+  h2 {
+    text-align: center;
+  }
+
   .hero {
     @include span-columns(12);
     text-align: center;
@@ -51,6 +55,30 @@
 
       .down-button {
         @include span-columns(8 of 8);
+      }
+    }
+  }
+
+  .about {
+    @include span-columns(12);
+    background-position-y: 60px !important;
+    background-size: 650px !important;
+    background-color: #EBDFF6 !important;
+    padding: 4em 0;
+
+    .text {
+      @include span-columns(8 of 12);
+      @include shift(2);
+      margin-top: 2em;
+
+      p {
+        line-height: 2.3em;
+      }
+
+      img {
+        width: 250px;
+        height: auto;
+        margin: 0 2em 2em 0;
       }
     }
   }

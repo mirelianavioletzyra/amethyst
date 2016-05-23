@@ -1,3 +1,14 @@
+.site-container {
+
+  @media screen and (max-width: 414px) { //* iPone 6 plus *//
+    width: 24em;
+  }
+
+  @media screen and (max-width: 375px) { //* iPone 6 *//
+    width: 26em;
+  }
+}
+
 //Default Layout (Content-Sidebar)
 .content-sidebar-wrap {
     @include outer-container;
@@ -43,4 +54,9 @@
   .entry {
 
   }
+}
+
+img.left-align {
+  position: relative;
+  float: left;
 }
