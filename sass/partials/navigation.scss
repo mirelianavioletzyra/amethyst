@@ -27,11 +27,20 @@
 //* Primary Navigation
 .nav-primary {
     background-color: $purple;
+    @include span-columns(12);
 
     .wrap {
-        width: 65em;
-        margin-left: auto;
-        margin-right: auto;
+        @include span-columns(8);
+        @include shift(2);
+
+        @media screen and (max-width: 414px) { //* iPone 6 plus *//
+          @include shift(0);
+        }
+
+        @media screen and (max-width: 375px) { //* iPone 6 *//
+          @include span-columns(8);
+          @include shift(1);
+        }
 
 
         .menu-item a {
