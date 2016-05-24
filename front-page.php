@@ -25,7 +25,7 @@ function front_page_content() {
     </div>
   </div>
 
-  <div class="about" style="background: url('<?php the_field( 'about_background' ); ?>') no-repeat center;">
+  <div id="about" class="about" style="background: url('<?php the_field( 'about_background' ); ?>') no-repeat center;">
     <h2><?php the_field( 'about_headding' ); ?></h2>
 
     <section class="text">
