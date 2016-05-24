@@ -1286,3 +1286,43 @@ header {
       width: 250px;
       height: auto;
       margin: 0 2em 2em 0; }
+.home-page .portfolio {
+  float: left;
+  display: block;
+  margin-right: 0.8403361345%;
+  width: 100%;
+  padding: 5em 0 3em 0; }
+  .home-page .portfolio:last-child {
+    margin-right: 0; }
+  .home-page .portfolio h2 {
+    margin-bottom: 2em; }
+  .home-page .portfolio .portfolio-item-wrap {
+    float: left;
+    display: block;
+    margin-right: 0.8403361345%;
+    width: 74.7899159664%;
+    margin-left: 12.6050420168%; }
+    .home-page .portfolio .portfolio-item-wrap:last-child {
+      margin-right: 0; }
+    .home-page .portfolio .portfolio-item-wrap .portfolio-item {
+      float: left;
+      display: block;
+      margin-right: 1.1235955056%;
+      width: 32.5842696629%;
+      margin-right: 0;
+      padding: 0 1em;
+      margin-bottom: 2em; }
+      .home-page .portfolio .portfolio-item-wrap .portfolio-item:last-child {
+        margin-right: 0; }
+      .home-page .portfolio .portfolio-item-wrap .portfolio-item .image-wrap {
+        background: url("images/Circles.png") no-repeat #AC8CC9;
+        background-size: 60px;
+        background-position-y: .75em;
+        background-position-x: .75em;
+        padding: 2em .75em .5em .75em;
+        border-radius: 10px;
+        margin-bottom: .75em; }
+        .home-page .portfolio .portfolio-item-wrap .portfolio-item .image-wrap img {
+          border-radius: 5px; }
+      .home-page .portfolio .portfolio-item-wrap .portfolio-item .portfolio-caption {
+        text-align: center; }

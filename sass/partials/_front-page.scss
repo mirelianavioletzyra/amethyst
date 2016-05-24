@@ -82,4 +82,43 @@
       }
     }
   }
+
+  .portfolio {
+    @include span-columns(12);
+    padding: 5em 0 3em 0;
+
+    h2 {
+      margin-bottom: 2em;
+    }
+
+    .portfolio-item-wrap {
+      @include span-columns(9);
+      @include shift(1.5);
+
+        .portfolio-item {
+          @include span-columns(3 of 9);
+          @include omega();
+          padding: 0 1em;
+          margin-bottom: 2em;
+
+          .image-wrap {
+            background: url('images/Circles.png') no-repeat $medium-purple;
+            background-size: 60px;
+            background-position-y: .75em;
+            background-position-x: .75em;
+            padding: 2em .75em .5em .75em;
+            border-radius: 10px;
+            margin-bottom: .75em;
+
+            img {
+              border-radius: 5px;
+            }
+          }
+
+          .portfolio-caption {
+            text-align: center;
+          }
+        }
+    }
+  }
 }

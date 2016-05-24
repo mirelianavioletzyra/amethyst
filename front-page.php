@@ -34,6 +34,35 @@ function front_page_content() {
   </div>
 
   <div class="portfolio">
+    <h2><?php the_field( 'portfolio_headding' ); ?></h2>
+
+    <div class="portfolio-item-wrap">
+      <?php
+          if( have_rows('portfolio_item') ):
+
+          while ( have_rows('portfolio_item') ) : the_row();
+
+          ?>
+              <div class="portfolio-item">
+                <div class="image-wrap">
+                  <a href="<?php the_sub_field('portfolio_link'); ?>"><img src="<?php the_sub_field('portfolio_image'); ?>"></a>
+                </div>
+
+                <div class="portfolio-caption"><?php the_sub_field('portfolio_caption'); ?></div>
+              </div>
+
+          <?php
+
+          endwhile;
+
+      else :
+
+          // no rows found
+
+      endif;
+
+      ?>
+    </div>
   </div>
 
   <div class="services">
