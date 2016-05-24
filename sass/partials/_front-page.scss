@@ -117,8 +117,44 @@
 
           .portfolio-caption {
             text-align: center;
-          }
         }
+      }
+    }
+  }
+
+  .services {
+    @include span-columns(12);
+    padding: 5em 0 3em 0;
+    background: $medium-purple;
+    color: white;
+
+    .service-wrap {
+      @include span-columns(8);
+      @include shift(2);
+
+      .service {
+        @include span-columns(4 of 8);
+        @include omega();
+        padding: 0 2em;
+        margin-bottom: 4em;
+
+        img {
+          position: relative;
+          margin-left: auto;
+          margin-right: auto;
+        }
+
+        h3 {
+          text-align: center;
+          padding-bottom: .5em;
+        }
+
+        p {
+          font-size: 1.2em;
+          line-height: 1.2em;
+          text-indent: 2em;
+        }
+      }
     }
   }
 }

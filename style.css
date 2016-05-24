@@ -1326,3 +1326,42 @@ header {
           border-radius: 5px; }
       .home-page .portfolio .portfolio-item-wrap .portfolio-item .portfolio-caption {
         text-align: center; }
+.home-page .services {
+  float: left;
+  display: block;
+  margin-right: 0.8403361345%;
+  width: 100%;
+  padding: 5em 0 3em 0;
+  background: #AC8CC9;
+  color: white; }
+  .home-page .services:last-child {
+    margin-right: 0; }
+  .home-page .services .service-wrap {
+    float: left;
+    display: block;
+    margin-right: 0.8403361345%;
+    width: 66.3865546218%;
+    margin-left: 16.8067226891%; }
+    .home-page .services .service-wrap:last-child {
+      margin-right: 0; }
+    .home-page .services .service-wrap .service {
+      float: left;
+      display: block;
+      margin-right: 1.2658227848%;
+      width: 49.3670886076%;
+      margin-right: 0;
+      padding: 0 2em;
+      margin-bottom: 4em; }
+      .home-page .services .service-wrap .service:last-child {
+        margin-right: 0; }
+      .home-page .services .service-wrap .service img {
+        position: relative;
+        margin-left: auto;
+        margin-right: auto; }
+      .home-page .services .service-wrap .service h3 {
+        text-align: center;
+        padding-bottom: .5em; }
+      .home-page .services .service-wrap .service p {
+        font-size: 1.2em;
+        line-height: 1.2em;
+        text-indent: 2em; }

@@ -66,6 +66,35 @@ function front_page_content() {
   </div>
 
   <div class="services">
+    <h2><?php the_field( 'services_headding' ); ?></h2>
+
+    <div class="service-wrap">
+      <?php
+
+          if( have_rows('service') ):
+
+              while ( have_rows('service') ) : the_row();
+
+                  ?>
+
+                  <div class="service">
+                    <img src="<?php the_sub_field('service_image'); ?>">
+                    <h3><?php the_sub_field('service_name'); ?></h3>
+                    <p><?php the_sub_field('service_description'); ?></p>
+                  </div>
+
+                  <?php
+              endwhile;
+
+          else :
+
+              // no rows found
+
+          endif;
+
+      ?>
+    </div>
+
   </div>
 
   <div class="contact-us">
