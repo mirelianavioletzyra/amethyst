@@ -1365,3 +1365,69 @@ header {
         font-size: 1.2em;
         line-height: 1.2em;
         text-indent: 2em; }
+.home-page .contact-us {
+  float: left;
+  display: block;
+  margin-right: 0.8403361345%;
+  width: 100%;
+  padding: 5em 0 3em 0;
+  background: #967AAE;
+  color: white; }
+  .home-page .contact-us:last-child {
+    margin-right: 0; }
+  .home-page .contact-us .contact-wrap {
+    float: left;
+    display: block;
+    margin-right: 0.8403361345%;
+    width: 66.3865546218%;
+    margin-left: 16.8067226891%; }
+    .home-page .contact-us .contact-wrap:last-child {
+      margin-right: 0; }
+    .home-page .contact-us .contact-wrap .contact-form {
+      float: left;
+      display: block;
+      margin-right: 1.2658227848%;
+      width: 74.6835443038%;
+      margin-left: 12.6582278481%; }
+      .home-page .contact-us .contact-wrap .contact-form:last-child {
+        margin-right: 0; }
+      .home-page .contact-us .contact-wrap .contact-form input[type=text], .home-page .contact-us .contact-wrap .contact-form input[type=tel], .home-page .contact-us .contact-wrap .contact-form input[type=email], .home-page .contact-us .contact-wrap .contact-form input[type=url], .home-page .contact-us .contact-wrap .contact-form textarea {
+        background-color: #FCF3FB;
+        border: 2px solid #E1BFFF;
+        border-radius: 8px;
+        padding: 1em; }
+      .home-page .contact-us .contact-wrap .contact-form input[type=submit] {
+        background: #ADDBED;
+        transition: .2s;
+        color: #616161;
+        font-weight: 400;
+        padding: 1em 4em; }
+        .home-page .contact-us .contact-wrap .contact-form input[type=submit]:hover {
+          background: #83c9e4;
+          transition: .2s; }
+      .home-page .contact-us .contact-wrap .contact-form .gform_footer {
+        text-align: center; }
+      .home-page .contact-us .contact-wrap .contact-form label, .home-page .contact-us .contact-wrap .contact-form .ginput_counter {
+        display: none; }
+    .home-page .contact-us .contact-wrap .contact-info {
+      float: left;
+      display: block;
+      margin-right: 1.2658227848%;
+      width: 74.6835443038%;
+      margin-left: 12.6582278481%;
+      background: #AC8CC9;
+      padding: 2em 5em;
+      margin-top: 3em; }
+      .home-page .contact-us .contact-wrap .contact-info:last-child {
+        margin-right: 0; }
+      .home-page .contact-us .contact-wrap .contact-info h3 {
+        text-align: center; }
+      .home-page .contact-us .contact-wrap .contact-info .left-column, .home-page .contact-us .contact-wrap .contact-info .right-column {
+        float: left;
+        display: block;
+        margin-right: 1.6949152542%;
+        width: 49.1525423729%;
+        margin-right: 0;
+        margin-top: 2em; }
+        .home-page .contact-us .contact-wrap .contact-info .left-column:last-child, .home-page .contact-us .contact-wrap .contact-info .right-column:last-child {
+          margin-right: 0; }

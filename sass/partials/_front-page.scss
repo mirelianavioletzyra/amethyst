@@ -157,4 +157,67 @@
       }
     }
   }
+
+  .contact-us {
+    @include span-columns(12);
+    padding: 5em 0 3em 0;
+    background: $purple;
+    color: white;
+
+    .contact-wrap {
+      @include span-columns(8);
+      @include shift(2);
+
+      .contact-form {
+        @include span-columns(6 of 8);
+        @include shift(1);
+
+        input[type=text], input[type=tel], input[type=email], input[type=url], textarea {
+          background-color: $light-purple;
+          border: 2px solid $light-purple-2;
+          border-radius: 8px;
+          padding: 1em;
+        }
+
+        input[type=submit] {
+          background: $light-cyan;
+          transition: .2s;
+          color: $dark-gray;
+          font-weight: 400;
+          padding: 1em 4em;
+
+          &:hover {
+            background: darken($light-cyan, 10);
+            transition: .2s;
+          }
+        }
+
+        .gform_footer {
+          text-align: center;
+        }
+
+        label, .ginput_counter {
+          display: none;
+        }
+      }
+
+      .contact-info {
+        @include span-columns(6 of 8);
+        @include shift(1);
+        background: $medium-purple;
+        padding: 2em 5em;
+        margin-top: 3em;
+
+        h3 {
+          text-align: center;
+        }
+
+        .left-column, .right-column {
+          @include span-columns(3 of 6);
+          @include omega();
+          margin-top: 2em;
+        }
+      }
+    }
+  }
 }

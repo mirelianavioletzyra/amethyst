@@ -94,10 +94,33 @@ function front_page_content() {
 
       ?>
     </div>
-
   </div>
 
   <div class="contact-us">
+    <h2><?php the_field( 'contact_headding' ); ?></h2>
+
+    <div class="contact-wrap">
+
+      <div class="contact-form">
+        <?php
+          $form_object = get_field('contact_form');
+          gravity_form_enqueue_scripts($form_object['id'], true);
+          gravity_form($form_object['id'], true, true, false, '', true, 1);
+        ?>
+      </div>
+
+      <div class="contact-info">
+        <h3><?php the_field( 'contact_info_headding' ); ?></h3>
+
+        <section class="left-column">
+          <?php the_field( 'contact_info_left' ); ?>
+        </section>
+
+        <section class="right-column">
+          <?php the_field( 'contact_info_right' ); ?>
+        </section>
+      </div>
+    </div>
   </div>
 
   <?php
