@@ -1323,7 +1323,8 @@ header {
         border-radius: 10px;
         margin-bottom: .75em; }
         .home-page .portfolio .portfolio-item-wrap .portfolio-item .image-wrap img, .home .portfolio .portfolio-item-wrap .portfolio-item .image-wrap img {
-          border-radius: 5px; }
+          border-radius: 5px;
+          max-height: 200px; }
       .home-page .portfolio .portfolio-item-wrap .portfolio-item .portfolio-caption, .home .portfolio .portfolio-item-wrap .portfolio-item .portfolio-caption {
         text-align: center; }
 .home-page .services, .home .services {
