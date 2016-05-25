@@ -1400,7 +1400,7 @@ header {
       .home-page .contact-us .contact-wrap .contact-form input[type=submit], .home .contact-us .contact-wrap .contact-form input[type=submit] {
         background: #ADDBED;
         transition: .2s;
-        color: #616161;
+        color: #967AAE;
         font-weight: 400;
         padding: 1em 4em; }
         .home-page .contact-us .contact-wrap .contact-form input[type=submit]:hover, .home .contact-us .contact-wrap .contact-form input[type=submit]:hover {
