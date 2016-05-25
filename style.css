@@ -1083,82 +1083,82 @@ header {
   .site-header .genesis-nav-menu.responsive-menu > li:hover > a,
   .site-header .genesis-nav-menu.responsive-menu a:hover {
     color: #fff; } }
-.blog main.content {
+.blog main.content, .page-template-page_blog main.content {
   padding-top: 3em; }
-  .blog main.content .category-how-tos .entry-meta {
+  .blog main.content .category-how-tos .entry-meta, .page-template-page_blog main.content .category-how-tos .entry-meta {
     background: #4FBFEB; }
-    .blog main.content .category-how-tos .entry-meta a {
+    .blog main.content .category-how-tos .entry-meta a, .page-template-page_blog main.content .category-how-tos .entry-meta a {
       color: #ADDBED; }
-      .blog main.content .category-how-tos .entry-meta a:hover {
+      .blog main.content .category-how-tos .entry-meta a:hover, .page-template-page_blog main.content .category-how-tos .entry-meta a:hover {
         color: white; }
-  .blog main.content .category-news .entry-meta {
+  .blog main.content .category-news .entry-meta, .page-template-page_blog main.content .category-news .entry-meta {
     background: #E23B92; }
-    .blog main.content .category-news .entry-meta a {
+    .blog main.content .category-news .entry-meta a, .page-template-page_blog main.content .category-news .entry-meta a {
       color: #F98DC5; }
-      .blog main.content .category-news .entry-meta a:hover {
+      .blog main.content .category-news .entry-meta a:hover, .page-template-page_blog main.content .category-news .entry-meta a:hover {
         color: white; }
-  .blog main.content .category-blog .entry-meta {
+  .blog main.content .category-blog .entry-meta, .page-template-page_blog main.content .category-blog .entry-meta {
     background: #4F53EB; }
-    .blog main.content .category-blog .entry-meta a {
+    .blog main.content .category-blog .entry-meta a, .page-template-page_blog main.content .category-blog .entry-meta a {
       color: #9395E8; }
-      .blog main.content .category-blog .entry-meta a:hover {
+      .blog main.content .category-blog .entry-meta a:hover, .page-template-page_blog main.content .category-blog .entry-meta a:hover {
         color: white; }
-  .blog main.content article.post {
+  .blog main.content article.post, .page-template-page_blog main.content article.post {
     float: left;
     display: block;
     margin-right: 0.8403361345%;
     width: 32.7731092437%;
     color: white;
     margin-bottom: 1em; }
-    .blog main.content article.post:last-child {
+    .blog main.content article.post:last-child, .page-template-page_blog main.content article.post:last-child {
       margin-right: 0; }
-    .blog main.content article.post:nth-child(3n) {
+    .blog main.content article.post:nth-child(3n), .page-template-page_blog main.content article.post:nth-child(3n) {
       margin-right: 0; }
-    .blog main.content article.post:nth-child(3n+1) {
+    .blog main.content article.post:nth-child(3n+1), .page-template-page_blog main.content article.post:nth-child(3n+1) {
       clear: left; }
-    .blog main.content article.post a {
+    .blog main.content article.post a, .page-template-page_blog main.content article.post a {
       color: white;
       text-decoration: underline; }
-      .blog main.content article.post a:hover {
+      .blog main.content article.post a:hover, .page-template-page_blog main.content article.post a:hover {
         color: #E1BFFF; }
-    .blog main.content article.post header.entry-header {
+    .blog main.content article.post header.entry-header, .page-template-page_blog main.content article.post header.entry-header {
       background: #979797;
       width: 300px;
       height: 18em; }
-      .blog main.content article.post header.entry-header .entry-meta {
+      .blog main.content article.post header.entry-header .entry-meta, .page-template-page_blog main.content article.post header.entry-header .entry-meta {
         text-align: center;
         font-family: century gothic;
         text-transform: uppercase;
         position: relative;
         top: -7px;
         font-weight: 600; }
-        .blog main.content article.post header.entry-header .entry-meta a {
+        .blog main.content article.post header.entry-header .entry-meta a, .page-template-page_blog main.content article.post header.entry-header .entry-meta a {
           text-decoration: none; }
-      .blog main.content article.post header.entry-header a {
+      .blog main.content article.post header.entry-header a, .page-template-page_blog main.content article.post header.entry-header a {
         display: block; }
-      .blog main.content article.post header.entry-header h1.entry-title, .blog main.content article.post header.entry-header h2.entry-title {
+      .blog main.content article.post header.entry-header h1.entry-title, .blog main.content article.post header.entry-header h2.entry-title, .page-template-page_blog main.content article.post header.entry-header h1.entry-title, .page-template-page_blog main.content article.post header.entry-header h2.entry-title {
         padding: 0em .7em;
         font-size: 1.4em; }
-        .blog main.content article.post header.entry-header h1.entry-title a, .blog main.content article.post header.entry-header h2.entry-title a {
+        .blog main.content article.post header.entry-header h1.entry-title a, .blog main.content article.post header.entry-header h2.entry-title a, .page-template-page_blog main.content article.post header.entry-header h1.entry-title a, .page-template-page_blog main.content article.post header.entry-header h2.entry-title a {
           color: white;
           font-family: Avenir Next;
           font-weight: 500;
           text-transform: capitalize;
           text-decoration: none; }
-          .blog main.content article.post header.entry-header h1.entry-title a:hover, .blog main.content article.post header.entry-header h2.entry-title a:hover {
+          .blog main.content article.post header.entry-header h1.entry-title a:hover, .blog main.content article.post header.entry-header h2.entry-title a:hover, .page-template-page_blog main.content article.post header.entry-header h1.entry-title a:hover, .page-template-page_blog main.content article.post header.entry-header h2.entry-title a:hover {
             color: #E1BFFF; }
-    .blog main.content article.post .entry-content {
+    .blog main.content article.post .entry-content, .page-template-page_blog main.content article.post .entry-content {
       padding: 1em;
       background: #979797;
       width: 300px;
       height: 9em; }
-      .blog main.content article.post .entry-content p {
+      .blog main.content article.post .entry-content p, .page-template-page_blog main.content article.post .entry-content p {
         font-size: 1em;
         font-weight: 500;
         line-height: 25px; }
-    .blog main.content article.post .entry-footer {
+    .blog main.content article.post .entry-footer, .page-template-page_blog main.content article.post .entry-footer {
       width: 300px; }
-      .blog main.content article.post .entry-footer .entry-meta {
+      .blog main.content article.post .entry-footer .entry-meta, .page-template-page_blog main.content article.post .entry-footer .entry-meta {
         padding: .1em 1em 1em;
         background: #979797;
         font-family: Andale Mono;
