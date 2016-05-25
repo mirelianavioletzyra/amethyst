@@ -1203,64 +1203,64 @@ header {
     .single-post .site-inner .category-how-tos .entry-meta .entry-categories, .single-post .site-inner .category-news .entry-meta .entry-categories, .single-post .site-inner .category-blog .entry-meta .entry-categories {
       text-align: center; }
 
-.home-page h2 {
+.home-page h2, .home h2 {
   text-align: center; }
-.home-page .hero {
+.home-page .hero, .home .hero {
   float: left;
   display: block;
   margin-right: 0.8403361345%;
   width: 100%;
   text-align: center;
   color: white; }
-  .home-page .hero:last-child {
+  .home-page .hero:last-child, .home .hero:last-child {
     margin-right: 0; }
-  .home-page .hero .inner-wrap {
+  .home-page .hero .inner-wrap, .home .hero .inner-wrap {
     float: left;
     display: block;
     margin-right: 0.8403361345%;
     width: 66.3865546218%;
     margin-left: 16.8067226891%;
     padding: 4em 0 2em; }
-    .home-page .hero .inner-wrap:last-child {
+    .home-page .hero .inner-wrap:last-child, .home .hero .inner-wrap:last-child {
       margin-right: 0; }
-    .home-page .hero .inner-wrap .tagline-1 {
+    .home-page .hero .inner-wrap .tagline-1, .home .hero .inner-wrap .tagline-1 {
       margin-top: .5em; }
-    .home-page .hero .inner-wrap .tagline-2 {
+    .home-page .hero .inner-wrap .tagline-2, .home .hero .inner-wrap .tagline-2 {
       margin-top: .5em;
       color: #E1BFFF;
       font-size: 1.5em; }
-    .home-page .hero .inner-wrap section.buttons {
+    .home-page .hero .inner-wrap section.buttons, .home .hero .inner-wrap section.buttons {
       float: left;
       display: block;
       margin-right: 0.8403361345%;
       width: 66.3865546218%;
       margin-left: 16.8067226891%;
       padding: 5em 0 3em; }
-      .home-page .hero .inner-wrap section.buttons:last-child {
+      .home-page .hero .inner-wrap section.buttons:last-child, .home .hero .inner-wrap section.buttons:last-child {
         margin-right: 0; }
-      .home-page .hero .inner-wrap section.buttons .purple-button, .home-page .hero .inner-wrap section.buttons .light-purple-button {
+      .home-page .hero .inner-wrap section.buttons .purple-button, .home-page .hero .inner-wrap section.buttons .light-purple-button, .home .hero .inner-wrap section.buttons .purple-button, .home .hero .inner-wrap section.buttons .light-purple-button {
         border-radius: 5px;
         padding: 1em 2em;
         display: inline-block; }
-      .home-page .hero .inner-wrap section.buttons .purple-button {
+      .home-page .hero .inner-wrap section.buttons .purple-button, .home .hero .inner-wrap section.buttons .purple-button {
         color: white;
         background: #AC8CC9; }
-        .home-page .hero .inner-wrap section.buttons .purple-button:hover {
+        .home-page .hero .inner-wrap section.buttons .purple-button:hover, .home .hero .inner-wrap section.buttons .purple-button:hover {
           background: #9369b9; }
-      .home-page .hero .inner-wrap section.buttons .light-purple-button {
+      .home-page .hero .inner-wrap section.buttons .light-purple-button, .home .hero .inner-wrap section.buttons .light-purple-button {
         color: #6C5381;
         background: white;
         margin-left: 1.5em; }
-        .home-page .hero .inner-wrap section.buttons .light-purple-button:hover {
+        .home-page .hero .inner-wrap section.buttons .light-purple-button:hover, .home .hero .inner-wrap section.buttons .light-purple-button:hover {
           background: #e6e6e6; }
-    .home-page .hero .inner-wrap .down-button {
+    .home-page .hero .inner-wrap .down-button, .home .hero .inner-wrap .down-button {
       float: left;
       display: block;
       margin-right: 1.2658227848%;
       width: 100%; }
-      .home-page .hero .inner-wrap .down-button:last-child {
+      .home-page .hero .inner-wrap .down-button:last-child, .home .hero .inner-wrap .down-button:last-child {
         margin-right: 0; }
-.home-page .about {
+.home-page .about, .home .about {
   float: left;
   display: block;
   margin-right: 0.8403361345%;
@@ -1269,42 +1269,42 @@ header {
   background-size: 650px !important;
   background-color: #EBDFF6 !important;
   padding: 4em 0; }
-  .home-page .about:last-child {
+  .home-page .about:last-child, .home .about:last-child {
     margin-right: 0; }
-  .home-page .about .text {
+  .home-page .about .text, .home .about .text {
     float: left;
     display: block;
     margin-right: 0.8403361345%;
     width: 66.3865546218%;
     margin-left: 16.8067226891%;
     margin-top: 2em; }
-    .home-page .about .text:last-child {
+    .home-page .about .text:last-child, .home .about .text:last-child {
       margin-right: 0; }
-    .home-page .about .text p {
+    .home-page .about .text p, .home .about .text p {
       line-height: 2.3em; }
-    .home-page .about .text img {
+    .home-page .about .text img, .home .about .text img {
       width: 250px;
       height: auto;
       margin: 0 2em 2em 0; }
-.home-page .portfolio {
+.home-page .portfolio, .home .portfolio {
   float: left;
   display: block;
   margin-right: 0.8403361345%;
   width: 100%;
   padding: 5em 0 3em 0; }
-  .home-page .portfolio:last-child {
+  .home-page .portfolio:last-child, .home .portfolio:last-child {
     margin-right: 0; }
-  .home-page .portfolio h2 {
+  .home-page .portfolio h2, .home .portfolio h2 {
     margin-bottom: 2em; }
-  .home-page .portfolio .portfolio-item-wrap {
+  .home-page .portfolio .portfolio-item-wrap, .home .portfolio .portfolio-item-wrap {
     float: left;
     display: block;
     margin-right: 0.8403361345%;
     width: 74.7899159664%;
     margin-left: 12.6050420168%; }
-    .home-page .portfolio .portfolio-item-wrap:last-child {
+    .home-page .portfolio .portfolio-item-wrap:last-child, .home .portfolio .portfolio-item-wrap:last-child {
       margin-right: 0; }
-    .home-page .portfolio .portfolio-item-wrap .portfolio-item {
+    .home-page .portfolio .portfolio-item-wrap .portfolio-item, .home .portfolio .portfolio-item-wrap .portfolio-item {
       float: left;
       display: block;
       margin-right: 1.1235955056%;
@@ -1312,9 +1312,9 @@ header {
       margin-right: 0;
       padding: 0 1em;
       margin-bottom: 2em; }
-      .home-page .portfolio .portfolio-item-wrap .portfolio-item:last-child {
+      .home-page .portfolio .portfolio-item-wrap .portfolio-item:last-child, .home .portfolio .portfolio-item-wrap .portfolio-item:last-child {
         margin-right: 0; }
-      .home-page .portfolio .portfolio-item-wrap .portfolio-item .image-wrap {
+      .home-page .portfolio .portfolio-item-wrap .portfolio-item .image-wrap, .home .portfolio .portfolio-item-wrap .portfolio-item .image-wrap {
         background: url("images/Circles.png") no-repeat #AC8CC9;
         background-size: 60px;
         background-position-y: .75em;
@@ -1322,11 +1322,11 @@ header {
         padding: 2em .75em .5em .75em;
         border-radius: 10px;
         margin-bottom: .75em; }
-        .home-page .portfolio .portfolio-item-wrap .portfolio-item .image-wrap img {
+        .home-page .portfolio .portfolio-item-wrap .portfolio-item .image-wrap img, .home .portfolio .portfolio-item-wrap .portfolio-item .image-wrap img {
           border-radius: 5px; }
-      .home-page .portfolio .portfolio-item-wrap .portfolio-item .portfolio-caption {
+      .home-page .portfolio .portfolio-item-wrap .portfolio-item .portfolio-caption, .home .portfolio .portfolio-item-wrap .portfolio-item .portfolio-caption {
         text-align: center; }
-.home-page .services {
+.home-page .services, .home .services {
   float: left;
   display: block;
   margin-right: 0.8403361345%;
@@ -1334,17 +1334,17 @@ header {
   padding: 5em 0 3em 0;
   background: #AC8CC9;
   color: white; }
-  .home-page .services:last-child {
+  .home-page .services:last-child, .home .services:last-child {
     margin-right: 0; }
-  .home-page .services .service-wrap {
+  .home-page .services .service-wrap, .home .services .service-wrap {
     float: left;
     display: block;
     margin-right: 0.8403361345%;
     width: 66.3865546218%;
     margin-left: 16.8067226891%; }
-    .home-page .services .service-wrap:last-child {
+    .home-page .services .service-wrap:last-child, .home .services .service-wrap:last-child {
       margin-right: 0; }
-    .home-page .services .service-wrap .service {
+    .home-page .services .service-wrap .service, .home .services .service-wrap .service {
       float: left;
       display: block;
       margin-right: 1.2658227848%;
@@ -1352,20 +1352,20 @@ header {
       margin-right: 0;
       padding: 0 2em;
       margin-bottom: 4em; }
-      .home-page .services .service-wrap .service:last-child {
+      .home-page .services .service-wrap .service:last-child, .home .services .service-wrap .service:last-child {
         margin-right: 0; }
-      .home-page .services .service-wrap .service img {
+      .home-page .services .service-wrap .service img, .home .services .service-wrap .service img {
         position: relative;
         margin-left: auto;
         margin-right: auto; }
-      .home-page .services .service-wrap .service h3 {
+      .home-page .services .service-wrap .service h3, .home .services .service-wrap .service h3 {
         text-align: center;
         padding-bottom: .5em; }
-      .home-page .services .service-wrap .service p {
+      .home-page .services .service-wrap .service p, .home .services .service-wrap .service p {
         font-size: 1.2em;
         line-height: 1.2em;
         text-indent: 2em; }
-.home-page .contact-us {
+.home-page .contact-us, .home .contact-us {
   float: left;
   display: block;
   margin-right: 0.8403361345%;
@@ -1373,43 +1373,43 @@ header {
   padding: 5em 0 3em 0;
   background: #967AAE;
   color: white; }
-  .home-page .contact-us:last-child {
+  .home-page .contact-us:last-child, .home .contact-us:last-child {
     margin-right: 0; }
-  .home-page .contact-us .contact-wrap {
+  .home-page .contact-us .contact-wrap, .home .contact-us .contact-wrap {
     float: left;
     display: block;
     margin-right: 0.8403361345%;
     width: 66.3865546218%;
     margin-left: 16.8067226891%; }
-    .home-page .contact-us .contact-wrap:last-child {
+    .home-page .contact-us .contact-wrap:last-child, .home .contact-us .contact-wrap:last-child {
       margin-right: 0; }
-    .home-page .contact-us .contact-wrap .contact-form {
+    .home-page .contact-us .contact-wrap .contact-form, .home .contact-us .contact-wrap .contact-form {
       float: left;
       display: block;
       margin-right: 1.2658227848%;
       width: 74.6835443038%;
       margin-left: 12.6582278481%; }
-      .home-page .contact-us .contact-wrap .contact-form:last-child {
+      .home-page .contact-us .contact-wrap .contact-form:last-child, .home .contact-us .contact-wrap .contact-form:last-child {
         margin-right: 0; }
-      .home-page .contact-us .contact-wrap .contact-form input[type=text], .home-page .contact-us .contact-wrap .contact-form input[type=tel], .home-page .contact-us .contact-wrap .contact-form input[type=email], .home-page .contact-us .contact-wrap .contact-form input[type=url], .home-page .contact-us .contact-wrap .contact-form textarea {
+      .home-page .contact-us .contact-wrap .contact-form input[type=text], .home-page .contact-us .contact-wrap .contact-form input[type=tel], .home-page .contact-us .contact-wrap .contact-form input[type=email], .home-page .contact-us .contact-wrap .contact-form input[type=url], .home-page .contact-us .contact-wrap .contact-form textarea, .home .contact-us .contact-wrap .contact-form input[type=text], .home .contact-us .contact-wrap .contact-form input[type=tel], .home .contact-us .contact-wrap .contact-form input[type=email], .home .contact-us .contact-wrap .contact-form input[type=url], .home .contact-us .contact-wrap .contact-form textarea {
         background-color: #FCF3FB;
         border: 2px solid #E1BFFF;
         border-radius: 8px;
         padding: 1em; }
-      .home-page .contact-us .contact-wrap .contact-form input[type=submit] {
+      .home-page .contact-us .contact-wrap .contact-form input[type=submit], .home .contact-us .contact-wrap .contact-form input[type=submit] {
         background: #ADDBED;
         transition: .2s;
         color: #616161;
         font-weight: 400;
         padding: 1em 4em; }
-        .home-page .contact-us .contact-wrap .contact-form input[type=submit]:hover {
+        .home-page .contact-us .contact-wrap .contact-form input[type=submit]:hover, .home .contact-us .contact-wrap .contact-form input[type=submit]:hover {
           background: #83c9e4;
           transition: .2s; }
-      .home-page .contact-us .contact-wrap .contact-form .gform_footer {
+      .home-page .contact-us .contact-wrap .contact-form .gform_footer, .home .contact-us .contact-wrap .contact-form .gform_footer {
         text-align: center; }
-      .home-page .contact-us .contact-wrap .contact-form label, .home-page .contact-us .contact-wrap .contact-form .ginput_counter {
+      .home-page .contact-us .contact-wrap .contact-form label, .home-page .contact-us .contact-wrap .contact-form .ginput_counter, .home .contact-us .contact-wrap .contact-form label, .home .contact-us .contact-wrap .contact-form .ginput_counter {
         display: none; }
-    .home-page .contact-us .contact-wrap .contact-info {
+    .home-page .contact-us .contact-wrap .contact-info, .home .contact-us .contact-wrap .contact-info {
       float: left;
       display: block;
       margin-right: 1.2658227848%;
@@ -1418,16 +1418,16 @@ header {
       background: #AC8CC9;
       padding: 2em 5em;
       margin-top: 3em; }
-      .home-page .contact-us .contact-wrap .contact-info:last-child {
+      .home-page .contact-us .contact-wrap .contact-info:last-child, .home .contact-us .contact-wrap .contact-info:last-child {
         margin-right: 0; }
-      .home-page .contact-us .contact-wrap .contact-info h3 {
+      .home-page .contact-us .contact-wrap .contact-info h3, .home .contact-us .contact-wrap .contact-info h3 {
         text-align: center; }
-      .home-page .contact-us .contact-wrap .contact-info .left-column, .home-page .contact-us .contact-wrap .contact-info .right-column {
+      .home-page .contact-us .contact-wrap .contact-info .left-column, .home-page .contact-us .contact-wrap .contact-info .right-column, .home .contact-us .contact-wrap .contact-info .left-column, .home .contact-us .contact-wrap .contact-info .right-column {
         float: left;
         display: block;
         margin-right: 1.6949152542%;
         width: 49.1525423729%;
         margin-right: 0;
         margin-top: 2em; }
-        .home-page .contact-us .contact-wrap .contact-info .left-column:last-child, .home-page .contact-us .contact-wrap .contact-info .right-column:last-child {
+        .home-page .contact-us .contact-wrap .contact-info .left-column:last-child, .home-page .contact-us .contact-wrap .contact-info .right-column:last-child, .home .contact-us .contact-wrap .contact-info .left-column:last-child, .home .contact-us .contact-wrap .contact-info .right-column:last-child {
           margin-right: 0; }
