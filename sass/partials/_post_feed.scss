@@ -5,7 +5,7 @@
   padding-top: 3em;
 
 
-  .category-how-tos {
+  article.category-how-tos {
     .entry-meta {
       background: $cyan;
       a {
@@ -18,7 +18,7 @@
     }
   }
 
-  .category-news {
+  article.category-news {
     .entry-meta {
       background: $red;
       a {
@@ -31,7 +31,7 @@
     }
   }
 
-  .category-blog {
+  article.category-blog {
     .entry-meta {
       background: $blue;
       a {

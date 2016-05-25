@@ -1085,23 +1085,23 @@ header {
     color: #fff; } }
 .blog main.content, .page-template-page_blog main.content {
   padding-top: 3em; }
-  .blog main.content .category-how-tos .entry-meta, .page-template-page_blog main.content .category-how-tos .entry-meta {
+  .blog main.content article.category-how-tos .entry-meta, .page-template-page_blog main.content article.category-how-tos .entry-meta {
     background: #4FBFEB; }
-    .blog main.content .category-how-tos .entry-meta a, .page-template-page_blog main.content .category-how-tos .entry-meta a {
+    .blog main.content article.category-how-tos .entry-meta a, .page-template-page_blog main.content article.category-how-tos .entry-meta a {
       color: #ADDBED; }
-      .blog main.content .category-how-tos .entry-meta a:hover, .page-template-page_blog main.content .category-how-tos .entry-meta a:hover {
+      .blog main.content article.category-how-tos .entry-meta a:hover, .page-template-page_blog main.content article.category-how-tos .entry-meta a:hover {
         color: white; }
-  .blog main.content .category-news .entry-meta, .page-template-page_blog main.content .category-news .entry-meta {
+  .blog main.content article.category-news .entry-meta, .page-template-page_blog main.content article.category-news .entry-meta {
     background: #E23B92; }
-    .blog main.content .category-news .entry-meta a, .page-template-page_blog main.content .category-news .entry-meta a {
+    .blog main.content article.category-news .entry-meta a, .page-template-page_blog main.content article.category-news .entry-meta a {
       color: #F98DC5; }
-      .blog main.content .category-news .entry-meta a:hover, .page-template-page_blog main.content .category-news .entry-meta a:hover {
+      .blog main.content article.category-news .entry-meta a:hover, .page-template-page_blog main.content article.category-news .entry-meta a:hover {
         color: white; }
-  .blog main.content .category-blog .entry-meta, .page-template-page_blog main.content .category-blog .entry-meta {
+  .blog main.content article.category-blog .entry-meta, .page-template-page_blog main.content article.category-blog .entry-meta {
     background: #4F53EB; }
-    .blog main.content .category-blog .entry-meta a, .page-template-page_blog main.content .category-blog .entry-meta a {
+    .blog main.content article.category-blog .entry-meta a, .page-template-page_blog main.content article.category-blog .entry-meta a {
       color: #9395E8; }
-      .blog main.content .category-blog .entry-meta a:hover, .page-template-page_blog main.content .category-blog .entry-meta a:hover {
+      .blog main.content article.category-blog .entry-meta a:hover, .page-template-page_blog main.content article.category-blog .entry-meta a:hover {
         color: white; }
   .blog main.content article.post, .page-template-page_blog main.content article.post {
     float: left;
@@ -1395,7 +1395,8 @@ header {
         background-color: #FCF3FB;
         border: 2px solid #E1BFFF;
         border-radius: 8px;
-        padding: 1em; }
+        padding: 1em;
+        color: #967AAE; }
       .home-page .contact-us .contact-wrap .contact-form input[type=submit], .home .contact-us .contact-wrap .contact-form input[type=submit] {
         background: #ADDBED;
         transition: .2s;
