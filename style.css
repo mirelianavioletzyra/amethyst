@@ -1124,7 +1124,7 @@ header {
     .blog main.content article.post header.entry-header, .page-template-page_blog main.content article.post header.entry-header {
       background: #979797;
       width: 300px;
-      height: 18em; }
+      height: 19em; }
       .blog main.content article.post header.entry-header .entry-meta, .page-template-page_blog main.content article.post header.entry-header .entry-meta {
         text-align: center;
         font-family: century gothic;
@@ -1151,7 +1151,7 @@ header {
       padding: 1em;
       background: #979797;
       width: 300px;
-      height: 27em; }
+      height: 28em; }
       .blog main.content article.post .entry-content p, .page-template-page_blog main.content article.post .entry-content p {
         font-size: 1em;
         font-weight: 500;
