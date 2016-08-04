@@ -1286,6 +1286,36 @@ header {
       width: 250px;
       height: auto;
       margin: 0 2em 2em 0; }
+  .home-page .about section.buttons, .home .about section.buttons {
+    float: left;
+    display: block;
+    margin-right: 0.8403361345%;
+    width: 32.7731092437%;
+    margin-left: 33.6134453782%;
+    padding: 3em 0 3em; }
+    .home-page .about section.buttons:last-child, .home .about section.buttons:last-child {
+      margin-right: 0; }
+    .home-page .about section.buttons .about-button, .home-page .about section.buttons .contact-button, .home .about section.buttons .about-button, .home .about section.buttons .contact-button {
+      border-radius: 10px;
+      padding: 1em 2em;
+      display: inline-block;
+      font-weight: 600; }
+    .home-page .about section.buttons .about-button, .home .about section.buttons .about-button {
+      color: #AC8CC9;
+      background: white;
+      border: 3px solid #967AAE;
+      margin-left: 10%; }
+      .home-page .about section.buttons .about-button:hover, .home .about section.buttons .about-button:hover {
+        background: #967AAE;
+        color: white; }
+    .home-page .about section.buttons .contact-button, .home .about section.buttons .contact-button {
+      color: #9395E8;
+      background: white;
+      border: 3px solid #4F53EB;
+      margin-left: 1.5em; }
+      .home-page .about section.buttons .contact-button:hover, .home .about section.buttons .contact-button:hover {
+        background: #4F53EB;
+        color: white; }
 .home-page .portfolio, .home .portfolio {
   float: left;
   display: block;

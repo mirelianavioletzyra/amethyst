@@ -117,7 +117,7 @@ add_filter( 'genesis_footer_creds_text', 'sp_footer_creds_text' );
 function sp_footer_creds_text() {
 	echo '<div class="creds"><p>';
 	echo 'Copyright &copy; ';
-	echo date('Y');
+	echo date('Y') . ' Amethyet LLC';
 	echo ' &middot; Designed and Developed by <a href="http://amethyst.design">Amethyst Design</a> &middot; Built on the <a href="http://www.studiopress.com/themes/genesis" title="Genesis Framework">Genesis Framework</a>';
   echo '<br>';
   echo 'Want us to build your website? <a href="#">Click Here</a> to find out more.';

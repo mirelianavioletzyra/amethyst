@@ -31,6 +31,11 @@ function front_page_content() {
     <section class="text">
       <?php the_field( 'about_content' ); ?>
     </section>
+
+    <section class="buttons">
+      <a href="<?php the_field( 'about_button_link' ); ?>" class="about-button"><?php the_field( 'about_button' ); ?></a>
+      <a href="<?php the_field( 'contact_button_link' ); ?>" class="contact-button"><?php the_field( 'contact_button' ); ?></a>
+    </section>
   </div>
 
   <div class="portfolio">
