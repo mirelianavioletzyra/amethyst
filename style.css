@@ -1429,6 +1429,8 @@ header {
       margin-left: 12.6582278481%; }
       .home-page .contact-us .contact-wrap .contact-form:last-child, .home .contact-us .contact-wrap .contact-form:last-child {
         margin-right: 0; }
+      .home-page .contact-us .contact-wrap .contact-form .gform_heading, .home .contact-us .contact-wrap .contact-form .gform_heading {
+        display: none; }
       .home-page .contact-us .contact-wrap .contact-form input[type=text], .home-page .contact-us .contact-wrap .contact-form input[type=tel], .home-page .contact-us .contact-wrap .contact-form input[type=email], .home-page .contact-us .contact-wrap .contact-form input[type=url], .home-page .contact-us .contact-wrap .contact-form textarea, .home .contact-us .contact-wrap .contact-form input[type=text], .home .contact-us .contact-wrap .contact-form input[type=tel], .home .contact-us .contact-wrap .contact-form input[type=email], .home .contact-us .contact-wrap .contact-form input[type=url], .home .contact-us .contact-wrap .contact-form textarea {
         background-color: #FCF3FB;
         border: 2px solid #E1BFFF;

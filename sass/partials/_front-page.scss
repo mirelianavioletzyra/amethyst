@@ -218,6 +218,10 @@
         @include span-columns(6 of 8);
         @include shift(1);
 
+        .gform_heading {
+          display: none; 
+        }
+
         input[type=text], input[type=tel], input[type=email], input[type=url], textarea {
           background-color: $light-purple;
           border: 2px solid $light-purple-2;
