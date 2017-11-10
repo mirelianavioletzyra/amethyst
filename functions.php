@@ -1,157 +1,158 @@
 <?php
-//* Start the engine
-include_once( get_template_directory() . '/lib/init.php' );
-
-
-define( 'CHILD_THEME_NAME', 'WP Temple Sandbox Theme' );
-define( 'CHILD_THEME_URL', 'https://www.wptemple.com/' );
-define( 'CHILD_THEME_VERSION', '2.1.2' );
-
-add_action( 'wp_enqueue_scripts', 'genesis_sandbox_enqueue_scripts' );
-    function genesis_sandbox_enqueue_scripts() {
-        wp_enqueue_script( 'responsive-menu', get_bloginfo( 'stylesheet_directory' ) . '/js/responsive-menu.js', array( 'jquery' ), '1.0.0' );
-        wp_enqueue_style( 'dashicons' );
-
-    }
-
-//* Add HTML5 markup structure
-add_theme_support( 'html5', array( 'search-form', 'comment-form', 'comment-list' ) );
-
-//* Add Home Image Size
-add_image_size( 'home', 300, 175, true );
-add_image_size( 'category', 680, 400, true);
-
-//* Add viewport meta tag for mobile browsers
-add_theme_support( 'genesis-responsive-viewport' );
-
-//* Add support for custom background
-add_theme_support( 'custom-background' );
-
-//* Add support for 3-column footer widgets
-add_theme_support( 'genesis-footer-widgets', 3 );
-
-//* Unregister Layouts
-genesis_unregister_layout( 'content-sidebar-sidebar' );
-genesis_unregister_layout( 'sidebar-content-sidebar' );
-genesis_unregister_layout( 'sidebar-sidebar-content' );
-
-//* Move Primary Nav Above Header
-remove_action( 'genesis_after_header', 'genesis_do_nav' );
-add_action( 'genesis_before_header', 'genesis_do_nav' );
-
-add_theme_support( 'custom-header', array(
-    'width'             => 700,
-    'height'            => 100,
-    'header-selector'   => '.site-title a',
-    'header-text'       => FALSE,
-) );
-
-//* Reposition the primary navigation menu
-remove_action( 'genesis_before_header', 'genesis_do_nav' );
-add_action( 'genesis_after_header', 'genesis_do_nav' );
-
-add_filter( 'wp_nav_menu_items', 'theme_menu_extras', 10, 2 );
 /**
- * Filter menu items, appending either a search form or today's date.
+ * Amethyst Consulting functions and definitions
  *
- * @param string   $menu HTML string of list items.
- * @param stdClass $args Menu arguments.
+ * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
- * @return string Amended HTML string of list items.
+ * @package Amethyst_Consulting
  */
-function theme_menu_extras( $menu, $args ) {
 
-	//* Change 'primary' to 'secondary' to add extras to the secondary navigation menu
-	if ( 'primary' !== $args->theme_location )
-		return $menu;
+if ( ! function_exists( 'amethyst_setup' ) ) :
+	/**
+	 * Sets up theme defaults and registers support for various WordPress features.
+	 *
+	 * Note that this function is hooked into the after_setup_theme hook, which
+	 * runs before the init hook. The init hook is too late for some features, such
+	 * as indicating support for post thumbnails.
+	 */
+	function amethyst_setup() {
+		/*
+		 * Make theme available for translation.
+		 * Translations can be filed in the /languages/ directory.
+		 * If you're building a theme based on Amethyst Consulting, use a find and replace
+		 * to change 'amethyst' to the name of your theme in all the template files.
+		 */
+		load_theme_textdomain( 'amethyst', get_template_directory() . '/languages' );
 
-	//* Uncomment this block to add a search form to the navigation menu
+		// Add default posts and comments RSS feed links to head.
+		add_theme_support( 'automatic-feed-links' );
 
-	ob_start();
-	get_search_form();
-	$search = ob_get_clean();
-	$menu  .= '<li class="nav-search">' . $search . '</li>';
+		/*
+		 * Let WordPress manage the document title.
+		 * By adding theme support, we declare that this theme does not use a
+		 * hard-coded <title> tag in the document head, and expect WordPress to
+		 * provide it for us.
+		 */
+		add_theme_support( 'title-tag' );
 
+		/*
+		 * Enable support for Post Thumbnails on posts and pages.
+		 *
+		 * @link https://developer.wordpress.org/themes/functionality/featured-images-post-thumbnails/
+		 */
+		add_theme_support( 'post-thumbnails' );
 
-	//* Uncomment this block to add the date to the navigation menu
-	/*
-	$menu .= '<li class="right date">' . date_i18n( get_option( 'date_format' ) ) . '</li>';
-	*/
+		// This theme uses wp_nav_menu() in one location.
+		register_nav_menus( array(
+			'menu-1' => esc_html__( 'Primary', 'amethyst' ),
+		) );
 
-	return $menu;
+		/*
+		 * Switch default core markup for search form, comment form, and comments
+		 * to output valid HTML5.
+		 */
+		add_theme_support( 'html5', array(
+			'search-form',
+			'comment-form',
+			'comment-list',
+			'gallery',
+			'caption',
+		) );
 
-}
+		// Set up the WordPress core custom background feature.
+		add_theme_support( 'custom-background', apply_filters( 'amethyst_custom_background_args', array(
+			'default-color' => 'ffffff',
+			'default-image' => '',
+		) ) );
 
-//* Customize search form input box text
-add_filter( 'genesis_search_text', 'sp_search_text' );
-function sp_search_text( $text ) {
-	return esc_attr( ' ' );
-}
+		// Add theme support for selective refresh for widgets.
+		add_theme_support( 'customize-selective-refresh-widgets' );
 
-//* Customize search form input button text
-add_filter( 'genesis_search_button_text', 'sp_search_button_text' );
-function sp_search_button_text( $text ) {
-	return esc_attr( ' ' );
-}
+		/**
+		 * Add support for core custom logo.
+		 *
+		 * @link https://codex.wordpress.org/Theme_Logo
+		 */
+		add_theme_support( 'custom-logo', array(
+			'height'      => 250,
+			'width'       => 250,
+			'flex-width'  => true,
+			'flex-height' => true,
+		) );
+	}
+endif;
+add_action( 'after_setup_theme', 'amethyst_setup' );
 
-//* Customize the post meta function
-add_filter( 'genesis_post_meta', 'sp_post_meta_filter' );
-function sp_post_meta_filter($post_meta) {
-if ( !is_page() ) {
-	$post_meta = 'Published On: [post_date format="m/d/y"]';
-	return $post_meta;
-}}
-
-//* Customize the entry meta in the entry header (requires HTML5 theme support)
-add_filter( 'genesis_post_info', 'sp_post_info_filter' );
-function sp_post_info_filter($post_info) {
-	$post_info = '[post_categories before="" ]';
-	return $post_info;
-}
-
-//Adds visibility settings for labels to gravity forms
-add_filter( 'gform_enable_field_label_visibility_settings', '__return_true' );
-
-//* Customize the credits
-add_filter( 'genesis_footer_creds_text', 'sp_footer_creds_text' );
-function sp_footer_creds_text() {
-	echo '<div class="creds"><p>';
-	echo 'Copyright &copy; ';
-	echo date('Y') . ' Amethyet LLC';
-	echo ' &middot; Designed and Developed by <a href="http://amethyst.design">Amethyst Design</a> &middot; Built on the <a href="http://www.studiopress.com/themes/genesis" title="Genesis Framework">Genesis Framework</a>';
-  echo '<br>';
-  echo 'Want us to build your website? <a href="#">Click Here</a> to find out more.';
-	echo '</p></div>';
-}
 /**
- * Add a CSS ID to main element
- **/
-add_filter( 'genesis_attr_content', 'lc_custom_attributes_content' );
-function lc_custom_attributes_content( $attributes ) {
-  $attributes['id'] = 'main-content';
-  return $attributes;
-
-}
-
-/**
- * Add support for JetPack infinite scroll
- **/
-function lc_infinite_scroll_init() {
- add_theme_support( 'infinite-scroll', array(
- 'footer_widgets' => true,
- 'container' => 'main-content',
- 'footer' => false,
- 'render' => 'genesis_loop',
- ) );
-}
-add_action( 'after_setup_theme', 'lc_infinite_scroll_init' );
-
-/*
- * Change the posts_per_page Infinite Scroll setting from 10 to 20
+ * Set the content width in pixels, based on the theme's design and stylesheet.
+ *
+ * Priority 0 to make it available to lower priority callbacks.
+ *
+ * @global int $content_width
  */
-function my_theme_infinite_scroll_settings( $args ) {
-    if ( is_array( $args ) )
-        $args['posts_per_page'] = 6;
-    return $args;
+function amethyst_content_width() {
+	$GLOBALS['content_width'] = apply_filters( 'amethyst_content_width', 640 );
 }
-add_filter( 'infinite_scroll_settings', 'my_theme_infinite_scroll_settings' );
+add_action( 'after_setup_theme', 'amethyst_content_width', 0 );
+
+/**
+ * Register widget area.
+ *
+ * @link https://developer.wordpress.org/themes/functionality/sidebars/#registering-a-sidebar
+ */
+function amethyst_widgets_init() {
+	register_sidebar( array(
+		'name'          => esc_html__( 'Sidebar', 'amethyst' ),
+		'id'            => 'sidebar-1',
+		'description'   => esc_html__( 'Add widgets here.', 'amethyst' ),
+		'before_widget' => '<section id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</section>',
+		'before_title'  => '<h2 class="widget-title">',
+		'after_title'   => '</h2>',
+	) );
+}
+add_action( 'widgets_init', 'amethyst_widgets_init' );
+
+/**
+ * Enqueue scripts and styles.
+ */
+function amethyst_scripts() {
+	wp_enqueue_style( 'amethyst-style', get_stylesheet_uri() );
+
+	wp_enqueue_script( 'amethyst-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
+
+	wp_enqueue_script( 'amethyst-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
+
+	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+		wp_enqueue_script( 'comment-reply' );
+	}
+}
+add_action( 'wp_enqueue_scripts', 'amethyst_scripts' );
+
+/**
+ * Implement the Custom Header feature.
+ */
+require get_template_directory() . '/inc/custom-header.php';
+
+/**
+ * Custom template tags for this theme.
+ */
+require get_template_directory() . '/inc/template-tags.php';
+
+/**
+ * Functions which enhance the theme by hooking into WordPress.
+ */
+require get_template_directory() . '/inc/template-functions.php';
+
+/**
+ * Customizer additions.
+ */
+require get_template_directory() . '/inc/customizer.php';
+
+/**
+ * Load Jetpack compatibility file.
+ */
+if ( defined( 'JETPACK__VERSION' ) ) {
+	require get_template_directory() . '/inc/jetpack.php';
+}
+
